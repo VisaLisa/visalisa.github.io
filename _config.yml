@@ -1,14 +1,14 @@
-url: https://theavila.github.io/
+url: https://visalisa.github.io/
 
 # Site settings
-title: "Aprendizagem de Máquina e Ciência de Dados"
-email: ricardo.lims@gmail.com
-description: "Aprendizagem de Máquina"
+title: "Lisa Jiamsirioungkul"
+email: visakhalisajiam@gmail.com
+description: "Product Manager"
 
 
 # Team names, titles and social links
 people:
-- name: Ricardo Ávila
+- name: Lisa Jiamsirioungkul  
   pic: 1
   social:
     - title: twitter
@@ -17,32 +17,26 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/theavila
+    url: https://twitter.com/visalisago
   - title: github
-    url: https://github.com/theavila
+    url: https://github.com/visalisa
   - title: linkedin
-    url: https://www.linkedin.com/in/theavila
-  - title: bitbucket
-    url: https://bitbucket.org/theavila/
-  - title: graduation-cap
-    url: https://scholar.google.pt/citations?user=3bMNkzYAAAAJ&hl=pt-PT
-#  - title: medium
-#    url: https://medium.com/@theavila
-#  - name: stack-overflow
-#    url: https://stackoverflow.com/users/10060380/theavila
+    url: https://www.linkedin.com/in/visalisa
+  - title: instagram
+    url: https://www.instagram.com/visalisa
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: Évora, PT
+  - line: Seatlle, WA
 
 footer:
-  copyright: Me. Ricardo Ávila
-  location: Reino de Deus
-  social: Passageiro nesse mundo
+  copyright: VisaLisa
+  location: Seattle, WA
+  social: Everywhere
   credits: Credits
 
 # Credits content
-credits: 'Site atualizado semanalmente. Atrasos podem ocorrer.'
+credits: https://github.com/y7kim/agency-jekyll-theme
 
 # Build settings
 markdown: kramdown
