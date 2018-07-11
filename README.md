@@ -1,5 +1,6 @@
-# theavila.github.io
+# VisaLisa.github.io
 
-Ainda em construção, esta página (ou blog) será um repositório de tutoriais sobre Aprendizagem de Máquina e Ciência de Dados, além de utilizá-lo como um portfolio de trabalhos realizados.
+Welcome to my github page. 
 
-Sinta-se a vontade para compartilhar, enviar comentários e entrar em contato. 😄
+Credit: https://github.com/BlackrockDigital/startbootstrap-agency
+
