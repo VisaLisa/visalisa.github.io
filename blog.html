@@ -7,22 +7,20 @@ title: "Blog"
 <strong>Informações importantes:</strong> Os tutoriais seguem uma estrutura linear, sendo recomendado seguir a ordem cronológica das postagens.<h3></div>
 
 
-{% for post in site.posts reversed %}
-    {% if post.path contains 'Blog'%}
-        {% if post.tags contains 'Tutorial' %}
-            <hr>
-            <div class="post-preview" style="margin-top: 2%;">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="post-title">            
-                        {{ post.title }}
-                    </h2>
-                    {% if post.subtitle %}
-                    <h3 class="post-subtitle" style="font-weight: 300; font-size:20px; font-family: Helvetica;">
-                        {{ post.subtitle }}
-                    </h3>
-                    {% endif %}
-                </a>
-            </div>
-        {% endif %}
+{% for post in site.blog reversed %}
+    {% if blog.tags contains 'Tutorial' %}
+        <hr>
+        <div class="post-preview" style="margin-top: 2%;">
+            <a href="{{ blog.url | prepend: site.baseurl }}">
+                <h2 class="post-title">            
+                    {{ blog.title }}
+                </h2>
+                {% if blog.subtitle %}
+                <h3 class="post-subtitle" style="font-weight: 300; font-size:20px; font-family: Helvetica;">
+                    {{ blog.subtitle }}
+                </h3>
+                {% endif %}
+            </a>
+        </div>
     {% endif %}
 {% endfor %}
