@@ -1,29 +1,29 @@
 ---
-layout: post
+layout: portfoliopost
 comments: true
-title: Análise de Consumidores com Aprendizagem de Máquina Não Supervisionado
-subtitle: "Entendendo o perfil do cliente"
-date: 2018-07-11
+title: Title name
+subtitle: "subtitle name"
+date: 2018-07-25
 tags: [Post]
-author: "Ricardo Ávila"
+author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
 modal-id: 10
 thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
-description: O perfil de consumo pode apresentar características importantes dos clientes e seus padrões de compra. De posse dessas informações, as empresas podem melhorar suas estratégias de marketing, direcionando os produtos corretos para clientes específicos, maximizando as vendas e evitando estoques desnecessários. 
+description: Projects description......... 
 ---
 
-## Conteúdo
-1. [Introdução](#intro) 
-2. [Análise Exploratória](#explo)
-3. [Análise de Componentes Principais](#PCA)
-4. [Clusterização](#GMM)
-5. [Referências](#ref)
+## Content
+1. [Introduction](#intro) 
+2. [Explore](#explo)
+3. [Principles](#prin)
+4. [Clustering Data](#cluster)
+5. [Reference](#ref)
 
-# Introdução <a name="intro"></a>
+# Introduction <a name="intro"></a>
 
-Vamos analisar gastos de consumidores para entender os padrões e estrutura de consumo. [Os dados](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers) são de um atacadista que contabilizou gastos de consumidores em seis categorias: frescos (`Fresh`), leite (`Milk`), mercearia (`Grocery`), congelado (`Frozen`), detergente e papel (`Detergents_Paper`) e Delicatessen (`Delicatessen`). O objetivo aqui será entender melhor a estrutura desses gastos, como eles se relacionam e se há algum padrão que pode ser explorado para otimizar as vendas.
+Trying to find information using this [dataset](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers). We selected these catorgories: frescos (`Fresh`), leite (`Milk`), mercearia (`Grocery`), congelado (`Frozen`), detergente e papel (`Detergents_Paper`) e Delicatessen (`Delicatessen`). O objetivo aqui será entender melhor a estrutura desses gastos, como eles se relacionam e se há algum padrão que pode ser explorado para otimizar as vendas.
 
-# Análise Exploratória <a name="explo"></a>
+# Explore <a name="explo"></a>
 
 Em primeiro lugar, vamos explorar algumas estatísticas simples dos nossos dados, tais como média de gastos por produto, desvio padrão e quantis dos dados.
 
@@ -114,7 +114,7 @@ Usando um [modelo de previsão linear simples](https://matheusfacure.github.io/2
 
 Aparentemente, há uma elevada correlação entre `Grocery` e `Detergents_Paper`; há também alguma correlação entre `Grocery` e `Milk` e entre `Milk` e `Detergents_Paper`. Isso já nos dá alguma informação sobre o comportamento dos consumidores: quando eles compram produtos de mercearia (`Grocery`), tendem também a comprar produtos nas categorias papel/detergente e leite. Mais ainda, essas correlações confirmam o que havíamos visto antes, sobre gastos com mercearia serem um tanto redundantes.
 
-# Análise de Componentes Principais <a name="PCA"></a>
+# Principles <a name="Prin"></a>
 
 A análise de componentes principais é um método de extração de características que busca achar os (tãn tãn tãn tãn!!!) componentes principais dos dados. Como um exemplo super simples, digamos que os consumidores do atacado em questão sejam apenas mães ou pais de crianças pequenas. Nos dados, só temos as quantidades gastas desses consumidores, mas podemos imaginar que esses gastos são manifestações de características que não podemos observar, como estilo de vida. O que podemos fazer então é combinar as nossas variáveis observadas (gastos) para criar variáveis explicativas que melhor condensam os padrões de consumo. Por exemplo, se notarmos que gastos com fraldas e leite em pó variam junto, podemos combinar essas duas variáveis em um único componente, que captura certa essência do fator não observável hábito de consumo de uma família com crianças pequenas. Com isso, reduzimos o número de variáveis nos dados, mas mantemos a informação presente neles: em vez de precisarmos acompanhar duas variáveis de gastos, só precisaremos acompanhar a variação desse novo componente criado. Intuitivamente, podemos pensar nesse componente como representando um fator latente de variação nos dados observáveis. Talvez esse fator latente seja estrutura familiar, mas, de qualquer forma o importante é que ele ajude a explicar variações de consumo. 
 
@@ -128,21 +128,15 @@ Note como 71,9% (0,4424 + 0,2766) da variação nos dados pode ser explicada pel
 
 Claramente, quanto mais negativo for o primeiro componente principal de uma observação, mais esse consumidor compra leite, produtos de mercearia e detergente/papel. Além disso, consumidores com o primeiro componente principal positivo compram menos de todas as categorias de produtos, o que me leva a crer que são, provavelmente, estabelecimentos menores. Com o mesmo tipo de raciocínio, podemos dizer que consumidores cujo segundo componente principal é negativo compram mais frescos, congelados e delicatssen.
 
-# Clusterização <a name="GMM"></a>
+# Clustering Data <a name="cluster"></a>
 
 Com os dados reduzidos, prossegui para algoritmos de clusterização, para tentar identificar segmentos de mercado. O método usado foi de [Expectativa-Maximização](https://www.youtube.com/watch?v=REypj2sy_5U), que identifica *clusters* de forma iterativa. O número ótimo de *clusters* encontrado foi dois. 
 
 <img class="img-responsive center-block thumbnail" src="/img/portfolio/un-ml-client/GMM-biplot.png" alt="GMM" />
 
-A próxima parte da análise requer um pouco de adivinhação e intuição, uma vez que não é absolutamente claro o que cada um desses agrupamentos significa. Podemos ver que o segmento representado pelo agrupamento `0` gasta mais que a média com produtos detergentes/papel e mercearia. Isso fica claro por esse segmento estar em uma região negativa do primeiro componente (lembre-se de que o primeiro componente é composto principalmente por detergentes/papel e mercearia, mas de forma inversa ou negativa). Isso me leva a crer que o agrupamento `0` representa estabelecimentos como mercados varejistas, que compram esses produtos provavelmente para revender. 
+How we cluster data.
 
-O segmento `1`, por outro lado, compra menos que a média em todas as categorias. Isso me leva a acreditar que ele representa estabelecimentos menores, como padarias, cafés ou restaurantes. Esse agrupamento também adquire muitos frescos (perto da média) que reforça minha hipótese de que ele representa algum tipo de estabelecimento que serve comida, como restaurantes.
-
-Se pegamos observações extremas, como o `X` no canto superior direito, podemos conjecturar que ele é um estabelecimento muito pequeno. Talvez uma pessoa física ou um pequeno café. No outro oposto, o `X` no canto esquerdo inferior deve ser algum supermercado. Exemplos mais na fronteira entre os *clusters* são mais ambíguos. Por exemplo, não está claro que tipo de estabelecimento é o `X` no centro superior.
-
-Após toda essa análise, é importante mostrar como a informação adquirida no processo pode ser útil para o atacado. Em primeiro lugar, tendo conhecimento dos tipos de consumidores, o atacado pode pensar em serviços que atendam melhor alguma das categorias. Um exemplo seria criar um serviço de entrega de produtos com rota especializada para passar em todos os supermercados ou em todos os hotéis ou cafés. Outra possibilidade para aumentar as vendas é organizar os produtos nas prateleiras de forma que os que são comprados conjuntamente fiquem próximos.
-
-# Referências <a name="ref"></a>
+# Reference <a name="ref"></a>
 
 Este trabalho é uma adaptação do terceiro projeto do [Nanodegree Engenheiro de Machine Learning da Udacity](https://br.udacity.com/course/machine-learning-engineer-nanodegree--nd009/?gclid=Cj0KEQjw9r7JBRCj37PlltTskaMBEiQAKTzTfFcElVRXhgn0LpGDkFgyBmi0C71whULjIq3rpRANFusaAtlH8P8HAQ).
 
