@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfoliopost
 comments: true
 title: F5 Data Science Education
 subtitle: "Making critical decisions with data"

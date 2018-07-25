@@ -19,13 +19,13 @@
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
                                 <li>Posted
-                                    <strong>{{ post.date | date: "%-d/%m/%Y" }}</strong>
+                                    <strong>{{ post.date | date: "%-m/%d/%Y" }}</strong>
                                 </li>
                                 
                             </ul>
                             <a href="{{ post.url | prepend: site.baseurl }}">
                             <button type="button" class="btn btn-default", style="background-color: #ececec; font-size: 110%; font-weight: bolder; color: #fc645f">
-                            Ver Mais</button>
+                            More</button>
                             </a>
                         </div>
                     </div>

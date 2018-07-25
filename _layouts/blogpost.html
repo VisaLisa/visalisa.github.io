@@ -27,7 +27,7 @@
         <div class="row" style="margin-top: 1%; text-align: right;">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <h5><em>Postado em {{ page.true-dt | date: "%-d/%m/%Y" }}</em><h5>
-            {% if page.update %}<h5><em>Updated{{ page.update | date: "%-d/%m/%Y" }}</em><h5>{% endif %}
+            {% if page.update %}<h5><em>Updated{{ page.update | date: "%-m/%d/%Y" }}</em><h5>{% endif %}
         </div>
         </div>
         <div class="row">
