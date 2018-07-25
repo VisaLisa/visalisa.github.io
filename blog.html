@@ -4,20 +4,20 @@ title: "Blog"
 ---
 
 <div style="margin-top: 5%"><h3 class="post-subtitle" style="font-weight: 300; font-size:20px; font-family: Helvetica;">
-    <h3>Lisa is always trying out new things!</h3></div>
+<h3>Lisa is always trying new things</h3></div>
 
 
-{% for blogs in site.blogs reversed %}
-    {% if blog.tags contains 'Tutorial' %}
+{% for post in site.posts reversed %}
+    {% if post.tags contains 'blog' %}
         <hr>
         <div class="post-preview" style="margin-top: 2%;">
-            <a href="{{ blogs.url | prepend: site.baseurl }}">
+            <a href="{{ post.url | prepend: site.baseurl }}">
                 <h2 class="post-title">            
-                    {{ blogs.title }}
+                    {{ post.title }}
                 </h2>
-                {% if blogs.subtitle %}
+                {% if post.subtitle %}
                 <h3 class="post-subtitle" style="font-weight: 300; font-size:20px; font-family: Helvetica;">
-                    {{ blogs.subtitle }}
+                    {{ post.subtitle }}
                 </h3>
                 {% endif %}
             </a>
