@@ -1,4 +1,3 @@
-
 ---
 layout: blogpost
 comments: true
@@ -7,11 +6,12 @@ subtitle: "subtitle here"
 lang: pt
 date: 2018-07-25
 true-dt: 2018-07-30
-tags: [Blog,]
+tags: [Blog]
 author: "Lisa Jiamsirioungkul"
 comments: true
 header-img: "img/dark-ann.jpg"
 ---
+
 ## Content
 
 0. [Intro](#intro)
