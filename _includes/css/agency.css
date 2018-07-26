@@ -327,7 +327,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 section h2.section-heading {
@@ -347,7 +347,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 50px 0;
+        padding: 150px 0;
     }
 }
 
@@ -545,7 +545,6 @@ section h3.section-subheading {
     font-size: 10px;
     font-family: {{site.data.template.font.primary }};
 }
-
 .timeline .timeline-body>ul {
     margin-bottom: 0;
 }
