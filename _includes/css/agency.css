@@ -12,6 +12,7 @@ body {
 
 .text-muted {
     color: #{{ site.data.template.color.muted }};
+    width: auto;
     
 }
 
@@ -543,7 +544,7 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-body>p {
-    font-size: 10px;
+    font-size: 12px;
     font-family: {{site.data.template.font.primary }};
 }
 .timeline .timeline-body>ul {
