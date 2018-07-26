@@ -541,7 +541,11 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-.timeline .timeline-body>p,
+.timeline .timeline-body>p {
+    font-size: 10px;
+    font-family: {{site.data.template.font.primary }};
+}
+
 .timeline .timeline-body>ul {
     margin-bottom: 0;
 }
