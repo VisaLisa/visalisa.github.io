@@ -2,11 +2,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h4>Find me at: </h4>
                     
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
+                        <h4>Find me at: </h4>
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}" onclick="ga('send', 'event', '{{ network.title }}', 'Click');">
                         <i class="fa fa-{{ network.title }}"></i></a>
