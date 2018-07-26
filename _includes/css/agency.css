@@ -12,8 +12,6 @@ body {
 
 .text-muted {
     color: #{{ site.data.template.color.muted }};
-    text-align: center;
-    width: 150px;
 }
 
 .text-primary {
@@ -349,7 +347,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 50px 0;
+        padding: 150px 0;
     }
 }
 
