@@ -1,4 +1,5 @@
----
+
+<!---
 layout: portfoliopost
 comments: true
 title: Title name
@@ -141,3 +142,4 @@ How we cluster data.
 Este trabalho é uma adaptação do terceiro projeto do [Nanodegree Engenheiro de Machine Learning da Udacity](https://br.udacity.com/course/machine-learning-engineer-nanodegree--nd009/?gclid=Cj0KEQjw9r7JBRCj37PlltTskaMBEiQAKTzTfFcElVRXhgn0LpGDkFgyBmi0C71whULjIq3rpRANFusaAtlH8P8HAQ).
 
 Você pode conferir a implementação completa do projeto [no GitHub](https://github.com/matheusfacure/Tutoriais-de-AM/tree/master/Exemplos).
+-->
