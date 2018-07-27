@@ -1,9 +1,9 @@
 ---
 layout: portfoliopost
 comments: true
-title:Whack A Mole
-subtitle: "Play Whack a Mole in VR"
-date: 2018-07-25
+title: whack a mole
+subtitle: "unity game"
+date: 2018-05-05
 tags: [Post]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
@@ -19,7 +19,10 @@ description: Projects description.........
 4. [Reference](#ref)
 
 # Introduction <a name="intro"></a>
-Developed a whack a mole game using Unity
+This is my team's 2017 Microsoft VR/AR Hackathon submission. A Google DayDream app that enables pasting capabilities while in a 360-photo space. I designed the UX workflow and helped our developer write the CSS for this project.
+
+My first VR Hackathon! Worked on a team of 3 and took part as the UX Designer on the team. We won 1st place!
+
 
 # Explore <a name="explo"></a>
 
@@ -29,3 +32,5 @@ Developed a whack a mole game using Unity
 
 
 # Reference <a name="ref"></a>
+
+
