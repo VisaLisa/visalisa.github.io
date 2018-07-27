@@ -1,7 +1,7 @@
 ---
 layout: portfoliopost
 comments: true
-title:Coffee Mood
+title: Coffee Mood
 subtitle: "Select the best coffee for you mood"
 date: 2017-01-01
 tags: [Post]
