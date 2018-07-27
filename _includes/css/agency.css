@@ -12,8 +12,6 @@ body {
 
 .text-muted {
     color: #{{ site.data.template.color.muted }};
-    width: auto;
-    
 }
 
 .text-primary {
@@ -329,7 +327,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 section h2.section-heading {
@@ -543,10 +541,7 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-.timeline .timeline-body>p {
-    font-size: 12px;
-    font-family: {{site.data.template.font.primary }};
-}
+.timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
 }
@@ -727,7 +722,7 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 25px 0;
     text-align: center;
 }
 
