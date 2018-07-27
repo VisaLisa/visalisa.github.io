@@ -6,8 +6,8 @@ subtitle: "I made the career change from operations to PM"
 lang: pt
 date: 2018-07-25
 true-dt: 2018-07-30
-tags: [Blog,python,project management]
-author: "Lisa"
+tags: [Blog,project management]
+author: "Lisa Jiamsirioungkul"
 comments: true
 header-img: "img/dark-ann.jpg"
 ---

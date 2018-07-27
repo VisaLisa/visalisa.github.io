@@ -7,7 +7,7 @@ date: 2018-07-25
 tags: [Post]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
-modal-id: 10
+modal-id: 1
 thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
 description: There was a need for Data Science education at F5 Networks Projects description......... 
 ---
