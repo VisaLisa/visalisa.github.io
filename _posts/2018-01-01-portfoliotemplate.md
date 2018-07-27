@@ -8,7 +8,7 @@ date: 2018-07-25
 tags: [Post]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
-modal-id: 10
+modal-id: ####
 thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
 description: Projects description......... 
 ---
