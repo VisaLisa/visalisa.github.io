@@ -17,5 +17,10 @@
 }
 
 #skills .row {
-	padding: 25px 0;
+	padding: 5px 0;
+
+}
+
+row h2.section-heading {
+    padding: 10px 0;
 }
