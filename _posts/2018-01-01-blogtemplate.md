@@ -1,3 +1,4 @@
+<!--
 ---
 layout: blogpost
 comments: true
@@ -11,6 +12,7 @@ author: "Lisa Jiamsirioungkul"
 comments: true
 header-img: "img/dark-ann.jpg"
 ---
+-->
 
 ## Content
 

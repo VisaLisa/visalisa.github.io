@@ -1,7 +1,7 @@
 ---
 layout: portfoliopost
 comments: true
-title: whack a mole
+title:Whack a mole
 subtitle: "unity game"
 date: 2018-05-05
 tags: [Post]

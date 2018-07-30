@@ -1,7 +1,7 @@
 ---
 layout: portfoliopost
 comments: true
-title: F5 Data Science Education
+title:F5 Data Science Education
 subtitle: "Making critical decisions with data"
 date: 2018-07-25
 tags: [Post]

@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 comments: true
-title: Making the jump to Product Manager
+title:Making the jump to Product Manager
 subtitle: "I made the career change from operations to PM"
 lang: pt
 date: 2018-07-25

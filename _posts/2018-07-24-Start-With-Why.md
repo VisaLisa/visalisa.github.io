@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 comments: true
-title: Start With Why
+title:Start With Why
 subtitle: "Review of Simon Sinek's "
 lang: pt
 date: 2018-07-24
