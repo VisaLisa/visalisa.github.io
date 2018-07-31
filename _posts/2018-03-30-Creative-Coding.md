@@ -35,6 +35,8 @@ We were trying to solve a few problems within our parent communities. The first 
 
 Other than creating a strategy around kids? Managing the company outreach & cponsorship is a blast because you get to watch the team build new relationship and the brand interaction locally.
 
+<a href="https://scratch.mit.edu/studios/5136239/"> Check out what I helped my kids build</a>
+
 
  
 
