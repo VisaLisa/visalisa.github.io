@@ -1,7 +1,7 @@
 ---
 layout: portfoliopost
 comments: true
-title: Drag and Drop
+title: Microsoft AR/VR Hackathon
 subtitle: "Playing with emoji pasting in a 360-photo"
 date: 2018-07-25
 tags: [Post]
