@@ -1,36 +1,28 @@
 ---
 layout: portfoliopost
 comments: true
-title:Whack a mole
-subtitle: "unity game"
-date: 2018-05-05
-tags: [Post]
+title:Whack-A-Mole
+subtitle: "Personal development using Unity to build a game"
+date: 2018-05-19
+tags: [Post, Unity]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
 modal-id: 2
-thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
-description: Projects description......... 
+thumbnail: /img/portfolio/whack-a-mole/Mole-thumb.png
+description: Whack-A-Mole is a personal project game designed in Unity. I intended to build it for VR game-play. I started prototyping in Jan 2018 and built the game in Unity over a next few months.
+
 ---
 
-## Content
-1. [Introduction](#intro) 
-2. [Explore](#explo)
-3. [Principles](#prin)
-4. [Reference](#ref)
+Whack-A-Mole is a personal project game designed in Unity. I intended to build it for VR game-play. I started prototyping in Jan 2018 and built the game in Unity over a next few months.
 
-# Introduction <a name="intro"></a>
-This is my team's 2017 Microsoft VR/AR Hackathon submission. A Google DayDream app that enables pasting capabilities while in a 360-photo space. I designed the UX workflow and helped our developer write the CSS for this project.
+##ROLE
+Prototyping, Development, Wireframing
 
-My first VR Hackathon! Worked on a team of 3 and took part as the UX Designer on the team. We won 1st place!
+##DATE
+January 2018
 
+##PROJECT DELIVERABLE
 
-# Explore <a name="explo"></a>
-
-
-
-# Principles <a name="Prin"></a>
-
-
-# Reference <a name="ref"></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hD3N12aF3ms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 

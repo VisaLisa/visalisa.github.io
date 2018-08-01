@@ -23,14 +23,6 @@ This is my team's 2017 Microsoft VR/AR Hackathon submission. A Google DayDream a
 
 My first VR Hackathon! Worked on a team of 3 and took part as the UX Designer on the team. We won 1st place!
 
+This project considers the relationship of the built environment and physical things, with augmented and virtual realities. While architecture has been an ever-evolving discipline for centuries, AR and VR are obviously very new. 
 
-# Explore <a name="explo"></a>
-
-
-
-# Principles <a name="Prin"></a>
-
-
-# Reference <a name="ref"></a>
-
-
+Yet, there are many assumptions (from Hollywood and Silicon Valley) that people maintain about AR and its eventual relationship with the physical world. Because of this, we will be questioning many of these assumptions by attempting to build our own positions and theories about the emerging mixed realities.
