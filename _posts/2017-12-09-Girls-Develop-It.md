@@ -24,18 +24,17 @@ The Importance of collaboration and learning how to approach and implement ideas
 
 #### Here are my three takeaways from a hackathon:
 
-1. **Go to a Hackathon - they're for EVERYONE!**
+** 1. Go to a Hackathon - they're for EVERYONE! **
 
-Even you don't have any technical knowledge, you still can provide value to your team. I had very little coding under my belt when I went into the hackathon and boy, it helped me learn on the spot.
+Even you don't have any technical knowledge, you still can provide value to your team. Every team needs someone to help with part of the project. I had very little coding under my belt when I went into the hackathon and boy, it helped me learn on the spot.
 
-2. **Ask lot of questions**
+** 2. Ask lot of questions **
 
-As a shy person, asking questions about the process, coding, or even the "stupid" questions are always welcome. Hackathon are an environment foster growth and innovation. Without asking questions, you're losing the opportunity to learn something you didn't.
+Asking questions about the process, coding, or even the "stupid" questions are always welcome at a hackathon. Hackathon are an environment foster growth and innovation. Without asking questions, you're losing the opportunity to learn something you didn't know.
 
-3. **Small Wins**
+** 3. Small Wins **
 
-Our group got 4th place in the hackathon. No trophy, but it was the small win of getting to learn something I didn't know 48 hours before. I learned about APIs, SVG files and wireframing with the help of my teammates and mentors.
-
+Our group got 4th place in the hackathon. No trophy, but it was the small wins of getting to learn something I didn't know 48 hours before. I left the event with my win of learning about APIs, SVG files and wireframing with the help of my teammates and mentors.
 
 ### ROLE
 Front-End Developer, UX Designer
@@ -44,6 +43,8 @@ Front-End Developer, UX Designer
 December 9-10, 2016
 
 ### PROJECT DELIVERABLE
+For the code, visit my <a href="https://github.com/VisaLisa/Coffee-Health-Slider">Coffee Mood Github</a>
+
 Website Mockup
 <img src="/img/portfolio/coffee-mood/webpage.png" width="718px">
 
@@ -54,10 +55,7 @@ Content
 <img src="/img/portfolio/coffee-mood/content.png" width="718px">
 
 Drinks
-<img src"/img/portfolio/coffee-mood/drinks.png" width="718px">
+<img src="/img/portfolio/coffee-mood/drinks.png" width="718px">
 
 Footer
 <img src="/img/portfolio/coffee-mood/footer.png" width="718px">
-
-
-For the code, visit my <a href="https://github.com/VisaLisa/Coffee-Health-Slider">Coffee Mood Github</a>
