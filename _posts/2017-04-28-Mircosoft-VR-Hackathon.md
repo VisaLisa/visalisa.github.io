@@ -8,7 +8,7 @@ tags: [Post]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
 modal-id: 3
-thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
+thumbnail: /img/portfolio/vr-hackathon/coverimg.png
 description: Drag & Drop was created to play with emoji within a 360 space. 
 ---
 ## Microsoft VR Hackathon
