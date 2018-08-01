@@ -39,10 +39,10 @@ Front-End Developer, UX Designer
 December 9-10, 2016
 
 ## PROJECT DELIVERABLE
-<img src="/img/portfolio/coffee-mood/webpage.png">
-<img src="/img/portfolio/coffee-mood/header.png">
-<img src="/img/portfolio/coffee-mood/content.png">
-<img src="/img/portfolio/coffee-mood/footer.png">
+<img src="/img/portfolio/coffee-mood/webpage.png" width="718px">
+<img src="/img/portfolio/coffee-mood/header.png" width="718px">
+<img src="/img/portfolio/coffee-mood/content.png" width="718px">
+<img src="/img/portfolio/coffee-mood/footer.png" width="718px">
 
 
 For the code, visit my <a href="https://github.com/VisaLisa/Coffee-Health-Slider">Coffee Mood Github</a>
