@@ -41,12 +41,12 @@ As many of us presented our work, it became apparents how one theme can create m
 ### ROLE
 VR Interaction Designer and Product Manager
 
-### DATE
-December 9-10, 2016
+### DATE OF EVENT
+April 28-30, 2017
 
 ### PROJECT DELIVERABLE
 
-<div class="w3-content w3-display-container">
+<div class="w3-content w3-display-container" style="text-align: center;">
   <img class="mySlides" src="/img/portfolio/vr-hackathon/page1.png" style="width=718px">
   <img class="mySlides" src="/img/portfolio/vr-hackathon/page2.png" style="width=718px">
   <img class="mySlides" src="/img/portfolio/vr-hackathon/page3.png" style="width=718px">
@@ -59,8 +59,8 @@ December 9-10, 2016
   <img class="mySlides" src="/img/portfolio/vr-hackathon/page10.png" style="width=718px">
   <img class="mySlides" src="/img/portfolio/vr-hackathon/page11.png" style="width=718px">
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" align="center">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" align="center">&#10095;</button>
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
 
 <script>

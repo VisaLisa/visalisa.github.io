@@ -39,7 +39,7 @@ Our group got 4th place in the hackathon. No trophy, but it was the small wins o
 ### ROLE
 Front-End Developer, UX Designer
 
-### DATE
+### DATE OF EVENT
 December 9-10, 2016
 
 ### PROJECT DELIVERABLE
