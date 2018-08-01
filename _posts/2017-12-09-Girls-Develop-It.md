@@ -24,15 +24,15 @@ The Importance of collaboration and learning how to approach and implement ideas
 
 #### Here are my three takeaways from a hackathon:
 
-** 1. Go to a Hackathon - they're for EVERYONE! **
+##### 1. Go to a Hackathon - they're for EVERYONE!
 
 Even you don't have any technical knowledge, you still can provide value to your team. Every team needs someone to help with part of the project. I had very little coding under my belt when I went into the hackathon and boy, it helped me learn on the spot.
 
-** 2. Ask lot of questions **
+##### 2. Ask lot of questions 
 
 Asking questions about the process, coding, or even the "stupid" questions are always welcome at a hackathon. Hackathon are an environment foster growth and innovation. Without asking questions, you're losing the opportunity to learn something you didn't know.
 
-** 3. Small Wins **
+##### 3. Small Wins 
 
 Our group got 4th place in the hackathon. No trophy, but it was the small wins of getting to learn something I didn't know 48 hours before. I left the event with my win of learning about APIs, SVG files and wireframing with the help of my teammates and mentors.
 
