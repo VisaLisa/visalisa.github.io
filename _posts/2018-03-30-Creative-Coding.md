@@ -6,9 +6,9 @@ subtitle: "Making Coding for Kids Fun!"
 date: 2017-03-30
 tags: [Post]
 author: "Lisa Jiamsirioungkul"
-header-img: /img/home_hero_no_banner.png
+header-img: img/portfolio/creative-coding/home_hero_no_banner.png
 modal-id: 5
-thumbnail: /img/portfolio/creative-coding/logo.png
+thumbnail: img/portfolio/creative-coding/cover.png
 description: Enrolling kids to code and the marketing process
 ---
 ## Creative Coding for Kids
