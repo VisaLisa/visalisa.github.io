@@ -23,7 +23,9 @@ The other part of the project was to make the presentation. Something I wanted t
 
 At the end of the hackathon, Drag & Drop won first place! I was really surprised since there were many other talented projects in the room.  
 
+
 #### Here are my three takeaways from the VR/AR hackathon:
+
 
 ##### 1. Everyone is new to something
 
@@ -57,8 +59,8 @@ December 9-10, 2016
   <img class="mySlides" src="/img/portfolio/vr-hackathon/page10.png" style="width=718px">
   <img class="mySlides" src="/img/portfolio/vr-hackathon/page11.png" style="width=718px">
 
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" align="center">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" align="center">&#10095;</button>
 </div>
 
 <script>
@@ -84,6 +86,8 @@ function showDivs(n) {
 
 
 ### RESOURCES
+
 <a href="https://github.com/googlevr/gvr-android-sdk">Google VR SDK Sample Github</a>
+
 <a href="https://developers.google.com/vr/daydream/overview">Google Daydream SDK</a>
 
