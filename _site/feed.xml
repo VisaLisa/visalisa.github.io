@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lisa Jiamsirioungkul</title>
+    <description>Product Manager</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+    <lastBuildDate>Mon, 06 Aug 2018 16:45:17 -0700</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title></title>
+        <description>&lt;h2 id=&quot;the-job-hunt&quot;&gt;The Job Hunt&lt;/h2&gt;
+
+&lt;p&gt;One of the most challenging life activities many people go through. I happen to be going through it again!&lt;/p&gt;
+
+&lt;p&gt;As a job hunter, I’m learning about not only the job, but I’m learning about myself. What skills do I have, what can I do, and ultimately, what makes me happy doing it?&lt;/p&gt;
+
+&lt;p&gt;Here are some thoughts to consider…&lt;/p&gt;
+
+&lt;p&gt;**Take&lt;/p&gt;
+
+&lt;p&gt;During this hunting time, life can be a blur. “What day is today?” “What’s on the to-do list?” “What’s can I do?” are just some of the questions you might be asking yourself.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/06/2018-08-01-The-Job-Hunt/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-08-01-The-Job-Hunt/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>&lt;h2 id=&quot;conteúdo&quot;&gt;Conteúdo&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#req&quot;&gt;Requisitos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#python&quot;&gt;Instalando Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tf&quot;&gt;Instalando TensorFlow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#git&quot;&gt;Instalando Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#test&quot;&gt;Testando&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#fim&quot;&gt;Considerações Finais&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;requisitos-computacionais-&quot;&gt;Requisitos computacionais &lt;a name=&quot;req&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Para seguir com esse tutorial de instalação, você precisa de um computador com Windows 64 bits e pelo menos 4 GB de RAM. Mas mais do que isso, se você planeja seguir adiante com estudos ou aplicações de aprendizado de máquina, é recomendável ter pelo menos 8 GB de RAM e um processador minimamente decente, como um Intel i5 ou outro processador com pelo menos quatro núcleos (&lt;em&gt;quad core&lt;/em&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-python-&quot;&gt;Instalando Python &lt;a name=&quot;python&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/python.png&quot; alt=&quot;python&quot; class=&quot;img-responsive thumbnail pull-right&quot; style=&quot;margin-left:3%; width:45%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No momento, Python a linguagem de programação preferida pelos cientistas de dados, especialmente para aprendizado de máquina. Mas mais do que isso, Python tem uma sintaxe extremamente simples e legível, o que te permite focar mais no conteúdo do seu programa do que em como escrevê-lo. Aqui, vamos ensinar como instalar a distribuição &lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;Anaconda&lt;/a&gt;, um pacote de programas que inclui o Python mais uma série de extensões utilizadas em ciência de dados e aprendizado de máquina (como Numpy, Pandas, Jupyter Notebooks e Scikit Learn).&lt;/p&gt;
+
+&lt;p&gt;Antes de mais nada, &lt;a href=&quot;https://support.microsoft.com/pt-br/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64-bit-version-of-the-windows-operating-system&quot;&gt;certifique-se de que seu sistema operacional é 64 bits&lt;/a&gt;. Infelizmente, o tutorial a seguir só funciona na versão 64 bits do Windows, então uma vez que você tenha confirmado essa versão, podemos prosseguir com a instalação. Agora, vá em &lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;https://www.continuum.io/downloads&lt;/a&gt; e baixe o Anaconda para Windows, versão 64-bit. Ao clicar no botão do download, um arquivo executável será baixado.&lt;/p&gt;
+
+&lt;p&gt;Clique no arquivo executável para inicializar a instalação. Prossiga com as opções padrões, mas certifique-se de que a caixa com a opção &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Anaconda to PATH&lt;/code&gt; esteja selecionada. Esse processo de instalação pode demorar um pouco. Quando a instalação concluir, podemos testar se tudo deu certo.&lt;/p&gt;
+
+&lt;p&gt;Abra a prompt de comando. Antes de prosseguir, vamos nos familiarizar com ela um pouco. A propt de comando é uma forma alternativa de interagir com o seu computador. Da mesma forma que você navega pelas pastas e arquivos clicando com o mouse, você pode fazer isso na linha de comando. Por padrão, a linha de comando abre no seu &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;, o local onde ficam suas pastas de imagens, documentos, downloads, etc. Após abrir o prompt de comando, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para ver o que está na sua pasta, naquele local. Você verá escrito as pastas de arquivos do seu &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; lista o que está na sua pasta (ou diretório) corrente.&lt;/p&gt;
+
+&lt;p&gt;Agora, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;cd Desktop&lt;/code&gt; para navegar ao Desktop do seu computador. Se quiser, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para mostrar quais arquivos estão no seu Desktop. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; (change directory) troca o diretório (ou pasta) corrente. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; sobe um nível nas pastas do seu computador. Se você digitar isso na prompt de comando enquanto estiver no Desktop, ele te levará de volta ao &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;, que é a o diretório um nível acima do &lt;code class=&quot;highlighter-rouge&quot;&gt;Desktop&lt;/code&gt;. Volte para o &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;No &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; na prompt de comando. Isso iniciará o modo interativa do Python. Execute algumas operações matemáticas como &lt;code class=&quot;highlighter-rouge&quot;&gt;2+2&lt;/code&gt; e veja o resultado sendo calculado pelo Python. Quando terminar, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;quit()&lt;/code&gt; para sair da versão interativa do Python.&lt;/p&gt;
+
+&lt;p&gt;Para finalizar, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter notebook&lt;/code&gt; na linha de comando. Isso inicializará o Jupyter, um programa que executa códigos em Python. Uma nova aba será aberta no seu browser (OBS: funciona apenas com Chrome ou Firefox) e nela você verá a interface do Jupyter. Caso essa aba não abra, na prompt de comando, procure um link que deve começar com &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:8889/&lt;/code&gt;. Copie e cole esse link em uma nova aba do seu browser para abrir a interface do Jupyter. Nessa interface, você poderá escrever &lt;em&gt;notebooks&lt;/em&gt; que intercalam código em Python intercalado com comentários, se assim desejar (veja um &lt;a href=&quot;https://github.com/matheusfacure/Tutoriais-de-AM/blob/master/Redes%20Neurais%20Artificiais/DeepANN.ipynb&quot;&gt;exemplo&lt;/a&gt;). Para sair do notebook, feche a aba no seu browser, volte a prompt de comando e aperte CTRL+C, seguido de y e enter. CTRL+C é um comando para fechar programas que estão rodando na sua prompt de comando; você terá que confirmar o fechamento com y (&lt;em&gt;yes&lt;/em&gt;), seguido de enter.&lt;/p&gt;
+
+&lt;p&gt;Para aprender mais sobre a linha de comando, sugiro este &lt;a href=&quot;https://learnpythonthehardway.org/book/appendixa.html&quot;&gt;link&lt;/a&gt;. Para aprender mais sobre o Jupyter, sugiro este &lt;a href=&quot;http://jupyter.readthedocs.io/en/latest/content-quickstart.html&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-tensorflow-&quot;&gt;Instalando TensorFlow &lt;a name=&quot;tf&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/tf.jpg&quot; alt=&quot;python&quot; class=&quot;img-responsive thumbnail pull-right&quot; style=&quot;margin-left:3%; width:45%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O &lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;TensorFlow&lt;/a&gt; é um programa de computação numérica, que tem sua versão principal em Python. Nós usamos o TensorFlow para programas de &lt;em&gt;deep learning&lt;/em&gt;, devido a sua eficiência computacional e abundância de comandos facilitadores para construção e treinamento de redes neurais. Antes de instalar o TensorFlow, vamos criar um ambiente Python. Nesse ambiente, todas as extensões (ou pacotes) que vem no Anaconda estarão presentes, mas o que instalarmos nele não será acessível de fora dele. Isso evita que a instalação de um pacote novo possa prejudicar o funcionamento dos pacotes já instalados.&lt;/p&gt;
+
+&lt;p&gt;Para criar um ambiente novo, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;conda create -n tensorflow&lt;/code&gt; na linha de comando. Confirme a criação do ambiente digitando y (&lt;em&gt;yes&lt;/em&gt;), seguido de enter. Agora, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;activate tensorflow&lt;/code&gt; para entrar nesse ambiente. Note que a sua linha de comando mudará para incluir &lt;code class=&quot;highlighter-rouge&quot;&gt;(tensorflow)&lt;/code&gt; antes do nome do seu diretório corrente. Para sair do ambiente, basta digitar &lt;code class=&quot;highlighter-rouge&quot;&gt;deactivate&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finalmente, para instalar o TensorFlow, entre no ambiente recém criado e digite:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--ignore-installed&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.2.0-cp36-cp36m-win_amd64.whl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Dica: CTRL+C e CTRL+V não funciona na linha de comando, mas você pode copiar e colar comandos clicando com o botão direito do mouse. Em alguns computadores, na linha de comando, podemos usar CTRL+SHIFT+C para copiar e CTRL+SHITF+V para colar.&lt;/p&gt;
+
+&lt;p&gt;Na instalação do TensorFlow, usaremos &lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt;, que é o gerenciador de pacotes do Python, para instalar o TensorFlow 1.2 para Windows, com suporte para CPU apenas. A instalação com suporte para GPU é mais complicada e varia muito. Caso queira instalá-la, siga as &lt;a href=&quot;https://www.tensorflow.org/install/install_windows&quot;&gt;instruções no site do TensorFlow&lt;/a&gt;. Teste agora sua instalação. Na linha de comando, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; para iniciar o modo iterativo do Python. Digite &lt;code class=&quot;highlighter-rouge&quot;&gt;import tensorflow as tf&lt;/code&gt;. Se tudo ocorreu bem até aqui, você não verá nenhum erro.&lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-git-&quot;&gt;Instalando Git &lt;a name=&quot;git&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Git é um programa de controle de versões. Ele permite que você volte a uma versão anterior do seu código caso escreva algum bug ou alguma coisa que pare o funcionamento do seu programa. Em outras palavras, o Git te permite experimentar novas coisas sem medo de ferrar com o que já foi feito, afinal você sempre poderá restaurar versões passadas do seu código. Além disso, o Git tem uma plataforma online, o &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;, que permite colaboração entre programadores, principalmente para códigos abertos. O GitHub também funciona como um currículo do cientista de dados. Por meio dele, é possível compartilhar seus trabalhos de forma que eles sejam completamente reprodutíveis, permitindo que qualquer um possa certificar-se das suas habilidades.&lt;/p&gt;
+
+&lt;p&gt;Para baixar o Git, va em &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;https://git-scm.com/downloads&lt;/a&gt; e clique na versão para Windows. Isso iniciará o download de um executável. Quando o download terminar, clique no executável para iniciar a instalação. Aceite todas as configurações padrão, &lt;strong&gt;exceto&lt;/strong&gt; a Configuração de Final de Linha. Nesse caso, mude para &lt;code class=&quot;highlighter-rouge&quot;&gt;Checkout as-is, commit Unix-style line endings&lt;/code&gt;. Isso facilitará muito no momento que você estiver contribuindo com outros projetos via GitHub.&lt;/p&gt;
+
+&lt;p&gt;Recomendo fortemente que você faça &lt;a href=&quot;https://br.udacity.com/course/how-to-use-git-and-github--ud775/&quot;&gt;este pequeno curso online&lt;/a&gt; (e gratuito) sobre como usar controle de versões, Git e GitHub. Não deve te tomar muito tempo.&lt;/p&gt;
+
+&lt;h2 id=&quot;testando-&quot;&gt;Testando &lt;a name=&quot;test&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Vamos fazer um último teste para ver se tudo está funcionando. Abra a linha de comando do Git e digite&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/matheusfacure/DeepArt.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Isso baixará um repositório meu com uma implementação do &lt;a href=&quot;https://en.wikipedia.org/wiki/DeepDream&quot;&gt;algoritmo de DeepDream&lt;/a&gt;. Por padrão, o a linha de comando do Git também abre no &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;. Se não for o caso, navega até o Home com &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; e então clone o repositório com o comando acima. Voltando à linha de comando do Windows, você deve estar no Home também. Digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para ver a pasta &lt;code class=&quot;highlighter-rouge&quot;&gt;DeepArt&lt;/code&gt; que baixamos com o Git.&lt;/p&gt;
+
+&lt;p&gt;Na linha de comando do Windows, digite agora &lt;code class=&quot;highlighter-rouge&quot;&gt;cd DeepArt/&lt;/code&gt; para entrar no diretório baixado. Por fim, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python deep_dream.py&lt;/code&gt; para executar o programa que fiz. Isso baixará uma rede neural (pode levar alguns minutos) e a utilizará para realizar o algoritmo de DeepDream. Usando o navegador padrão do seu sistema operacional (clicando com o mouse). Vá até o diretório (ou pasta) de DeepArt que acabamos de baixar e veja a imagem criada pelo algoritmo de DeepDream. Caso não saiba onde está essa pasta, na linha de comando do Git, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt; (print working directory) para mostrar o endereço da pasta.&lt;/p&gt;
+
+&lt;h2 id=&quot;considerações-finais-&quot;&gt;Considerações Finais &lt;a name=&quot;fim&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Os passos de execução deste tutorial foram testados e tudo ocorreu sem problemas. No entanto, é possível que alguém encontre alguma dificuldade ou erro no meio do caminho. Se for o caso, por favor comente a sua dificuldade ou erro neste post.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/06/2018-07-24-Start-With-Why/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-24-Start-With-Why/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>&lt;h2 id=&quot;conteúdo&quot;&gt;Conteúdo&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#req&quot;&gt;Requisitos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#python&quot;&gt;Instalando Python&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#tf&quot;&gt;Instalando TensorFlow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#git&quot;&gt;Instalando Git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#test&quot;&gt;Testando&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#fim&quot;&gt;Considerações Finais&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;requisitos-computacionais-&quot;&gt;Requisitos computacionais &lt;a name=&quot;req&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Para seguir com esse tutorial de instalação, você precisa de um computador com Windows 64 bits e pelo menos 4 GB de RAM. Mas mais do que isso, se você planeja seguir adiante com estudos ou aplicações de aprendizado de máquina, é recomendável ter pelo menos 8 GB de RAM e um processador minimamente decente, como um Intel i5 ou outro processador com pelo menos quatro núcleos (&lt;em&gt;quad core&lt;/em&gt;).&lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-python-&quot;&gt;Instalando Python &lt;a name=&quot;python&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/python.png&quot; alt=&quot;python&quot; class=&quot;img-responsive thumbnail pull-right&quot; style=&quot;margin-left:3%; width:45%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;No momento, Python a linguagem de programação preferida pelos cientistas de dados, especialmente para aprendizado de máquina. Mas mais do que isso, Python tem uma sintaxe extremamente simples e legível, o que te permite focar mais no conteúdo do seu programa do que em como escrevê-lo. Aqui, vamos ensinar como instalar a distribuição &lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;Anaconda&lt;/a&gt;, um pacote de programas que inclui o Python mais uma série de extensões utilizadas em ciência de dados e aprendizado de máquina (como Numpy, Pandas, Jupyter Notebooks e Scikit Learn).&lt;/p&gt;
+
+&lt;p&gt;Antes de mais nada, &lt;a href=&quot;https://support.microsoft.com/pt-br/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64-bit-version-of-the-windows-operating-system&quot;&gt;certifique-se de que seu sistema operacional é 64 bits&lt;/a&gt;. Infelizmente, o tutorial a seguir só funciona na versão 64 bits do Windows, então uma vez que você tenha confirmado essa versão, podemos prosseguir com a instalação. Agora, vá em &lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;https://www.continuum.io/downloads&lt;/a&gt; e baixe o Anaconda para Windows, versão 64-bit. Ao clicar no botão do download, um arquivo executável será baixado.&lt;/p&gt;
+
+&lt;p&gt;Clique no arquivo executável para inicializar a instalação. Prossiga com as opções padrões, mas certifique-se de que a caixa com a opção &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Anaconda to PATH&lt;/code&gt; esteja selecionada. Esse processo de instalação pode demorar um pouco. Quando a instalação concluir, podemos testar se tudo deu certo.&lt;/p&gt;
+
+&lt;p&gt;Abra a prompt de comando. Antes de prosseguir, vamos nos familiarizar com ela um pouco. A propt de comando é uma forma alternativa de interagir com o seu computador. Da mesma forma que você navega pelas pastas e arquivos clicando com o mouse, você pode fazer isso na linha de comando. Por padrão, a linha de comando abre no seu &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;, o local onde ficam suas pastas de imagens, documentos, downloads, etc. Após abrir o prompt de comando, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para ver o que está na sua pasta, naquele local. Você verá escrito as pastas de arquivos do seu &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; lista o que está na sua pasta (ou diretório) corrente.&lt;/p&gt;
+
+&lt;p&gt;Agora, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;cd Desktop&lt;/code&gt; para navegar ao Desktop do seu computador. Se quiser, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para mostrar quais arquivos estão no seu Desktop. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; (change directory) troca o diretório (ou pasta) corrente. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; sobe um nível nas pastas do seu computador. Se você digitar isso na prompt de comando enquanto estiver no Desktop, ele te levará de volta ao &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;, que é a o diretório um nível acima do &lt;code class=&quot;highlighter-rouge&quot;&gt;Desktop&lt;/code&gt;. Volte para o &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;No &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; na prompt de comando. Isso iniciará o modo interativa do Python. Execute algumas operações matemáticas como &lt;code class=&quot;highlighter-rouge&quot;&gt;2+2&lt;/code&gt; e veja o resultado sendo calculado pelo Python. Quando terminar, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;quit()&lt;/code&gt; para sair da versão interativa do Python.&lt;/p&gt;
+
+&lt;p&gt;Para finalizar, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter notebook&lt;/code&gt; na linha de comando. Isso inicializará o Jupyter, um programa que executa códigos em Python. Uma nova aba será aberta no seu browser (OBS: funciona apenas com Chrome ou Firefox) e nela você verá a interface do Jupyter. Caso essa aba não abra, na prompt de comando, procure um link que deve começar com &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:8889/&lt;/code&gt;. Copie e cole esse link em uma nova aba do seu browser para abrir a interface do Jupyter. Nessa interface, você poderá escrever &lt;em&gt;notebooks&lt;/em&gt; que intercalam código em Python intercalado com comentários, se assim desejar (veja um &lt;a href=&quot;https://github.com/matheusfacure/Tutoriais-de-AM/blob/master/Redes%20Neurais%20Artificiais/DeepANN.ipynb&quot;&gt;exemplo&lt;/a&gt;). Para sair do notebook, feche a aba no seu browser, volte a prompt de comando e aperte CTRL+C, seguido de y e enter. CTRL+C é um comando para fechar programas que estão rodando na sua prompt de comando; você terá que confirmar o fechamento com y (&lt;em&gt;yes&lt;/em&gt;), seguido de enter.&lt;/p&gt;
+
+&lt;p&gt;Para aprender mais sobre a linha de comando, sugiro este &lt;a href=&quot;https://learnpythonthehardway.org/book/appendixa.html&quot;&gt;link&lt;/a&gt;. Para aprender mais sobre o Jupyter, sugiro este &lt;a href=&quot;http://jupyter.readthedocs.io/en/latest/content-quickstart.html&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-tensorflow-&quot;&gt;Instalando TensorFlow &lt;a name=&quot;tf&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/tf.jpg&quot; alt=&quot;python&quot; class=&quot;img-responsive thumbnail pull-right&quot; style=&quot;margin-left:3%; width:45%;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;O &lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;TensorFlow&lt;/a&gt; é um programa de computação numérica, que tem sua versão principal em Python. Nós usamos o TensorFlow para programas de &lt;em&gt;deep learning&lt;/em&gt;, devido a sua eficiência computacional e abundância de comandos facilitadores para construção e treinamento de redes neurais. Antes de instalar o TensorFlow, vamos criar um ambiente Python. Nesse ambiente, todas as extensões (ou pacotes) que vem no Anaconda estarão presentes, mas o que instalarmos nele não será acessível de fora dele. Isso evita que a instalação de um pacote novo possa prejudicar o funcionamento dos pacotes já instalados.&lt;/p&gt;
+
+&lt;p&gt;Para criar um ambiente novo, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;conda create -n tensorflow&lt;/code&gt; na linha de comando. Confirme a criação do ambiente digitando y (&lt;em&gt;yes&lt;/em&gt;), seguido de enter. Agora, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;activate tensorflow&lt;/code&gt; para entrar nesse ambiente. Note que a sua linha de comando mudará para incluir &lt;code class=&quot;highlighter-rouge&quot;&gt;(tensorflow)&lt;/code&gt; antes do nome do seu diretório corrente. Para sair do ambiente, basta digitar &lt;code class=&quot;highlighter-rouge&quot;&gt;deactivate&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finalmente, para instalar o TensorFlow, entre no ambiente recém criado e digite:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--ignore-installed&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.2.0-cp36-cp36m-win_amd64.whl
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Dica: CTRL+C e CTRL+V não funciona na linha de comando, mas você pode copiar e colar comandos clicando com o botão direito do mouse. Em alguns computadores, na linha de comando, podemos usar CTRL+SHIFT+C para copiar e CTRL+SHITF+V para colar.&lt;/p&gt;
+
+&lt;p&gt;Na instalação do TensorFlow, usaremos &lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt;, que é o gerenciador de pacotes do Python, para instalar o TensorFlow 1.2 para Windows, com suporte para CPU apenas. A instalação com suporte para GPU é mais complicada e varia muito. Caso queira instalá-la, siga as &lt;a href=&quot;https://www.tensorflow.org/install/install_windows&quot;&gt;instruções no site do TensorFlow&lt;/a&gt;. Teste agora sua instalação. Na linha de comando, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; para iniciar o modo iterativo do Python. Digite &lt;code class=&quot;highlighter-rouge&quot;&gt;import tensorflow as tf&lt;/code&gt;. Se tudo ocorreu bem até aqui, você não verá nenhum erro.&lt;/p&gt;
+
+&lt;h2 id=&quot;instalando-git-&quot;&gt;Instalando Git &lt;a name=&quot;git&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Git é um programa de controle de versões. Ele permite que você volte a uma versão anterior do seu código caso escreva algum bug ou alguma coisa que pare o funcionamento do seu programa. Em outras palavras, o Git te permite experimentar novas coisas sem medo de ferrar com o que já foi feito, afinal você sempre poderá restaurar versões passadas do seu código. Além disso, o Git tem uma plataforma online, o &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;, que permite colaboração entre programadores, principalmente para códigos abertos. O GitHub também funciona como um currículo do cientista de dados. Por meio dele, é possível compartilhar seus trabalhos de forma que eles sejam completamente reprodutíveis, permitindo que qualquer um possa certificar-se das suas habilidades.&lt;/p&gt;
+
+&lt;p&gt;Para baixar o Git, va em &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;https://git-scm.com/downloads&lt;/a&gt; e clique na versão para Windows. Isso iniciará o download de um executável. Quando o download terminar, clique no executável para iniciar a instalação. Aceite todas as configurações padrão, &lt;strong&gt;exceto&lt;/strong&gt; a Configuração de Final de Linha. Nesse caso, mude para &lt;code class=&quot;highlighter-rouge&quot;&gt;Checkout as-is, commit Unix-style line endings&lt;/code&gt;. Isso facilitará muito no momento que você estiver contribuindo com outros projetos via GitHub.&lt;/p&gt;
+
+&lt;p&gt;Recomendo fortemente que você faça &lt;a href=&quot;https://br.udacity.com/course/how-to-use-git-and-github--ud775/&quot;&gt;este pequeno curso online&lt;/a&gt; (e gratuito) sobre como usar controle de versões, Git e GitHub. Não deve te tomar muito tempo.&lt;/p&gt;
+
+&lt;h2 id=&quot;testando-&quot;&gt;Testando &lt;a name=&quot;test&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Vamos fazer um último teste para ver se tudo está funcionando. Abra a linha de comando do Git e digite&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/matheusfacure/DeepArt.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Isso baixará um repositório meu com uma implementação do &lt;a href=&quot;https://en.wikipedia.org/wiki/DeepDream&quot;&gt;algoritmo de DeepDream&lt;/a&gt;. Por padrão, o a linha de comando do Git também abre no &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;. Se não for o caso, navega até o Home com &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; e então clone o repositório com o comando acima. Voltando à linha de comando do Windows, você deve estar no Home também. Digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para ver a pasta &lt;code class=&quot;highlighter-rouge&quot;&gt;DeepArt&lt;/code&gt; que baixamos com o Git.&lt;/p&gt;
+
+&lt;p&gt;Na linha de comando do Windows, digite agora &lt;code class=&quot;highlighter-rouge&quot;&gt;cd DeepArt/&lt;/code&gt; para entrar no diretório baixado. Por fim, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python deep_dream.py&lt;/code&gt; para executar o programa que fiz. Isso baixará uma rede neural (pode levar alguns minutos) e a utilizará para realizar o algoritmo de DeepDream. Usando o navegador padrão do seu sistema operacional (clicando com o mouse). Vá até o diretório (ou pasta) de DeepArt que acabamos de baixar e veja a imagem criada pelo algoritmo de DeepDream. Caso não saiba onde está essa pasta, na linha de comando do Git, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt; (print working directory) para mostrar o endereço da pasta.&lt;/p&gt;
+
+&lt;h2 id=&quot;considerações-finais-&quot;&gt;Considerações Finais &lt;a name=&quot;fim&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Os passos de execução deste tutorial foram testados e tudo ocorreu sem problemas. No entanto, é possível que alguém encontre alguma dificuldade ou erro no meio do caminho. Se for o caso, por favor comente a sua dificuldade ou erro neste post.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/06/2018-07-10-product-manager/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-10-product-manager/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>&lt;p&gt;Whack-A-Mole is a personal project game designed in Unity. I intended to build it for VR game-play. I started prototyping in Jan 2018 and built the game in Unity over a next few months.&lt;/p&gt;
+
+&lt;p&gt;##ROLE
+Prototyping, Development, Wireframing&lt;/p&gt;
+
+&lt;p&gt;##DATE
+January 2018&lt;/p&gt;
+
+&lt;p&gt;##PROJECT DELIVERABLE&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hD3N12aF3ms&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+</description>
+        <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/06/2018-05-05-Whack-A-Mole/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-05-05-Whack-A-Mole/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How To Add A Custom Domain To Github pages</title>
+        <description>&lt;h2 id=&quot;how-to-add-your-own-custome-domain-to-github-pages&quot;&gt;How To Add Your Own Custome Domain to Github pages&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#repos&quot;&gt;Setup in Github Repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#domain&quot;&gt;Configure on Google Domain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;introduction-&quot;&gt;Introduction &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;This guide is to simplify the process of setting up a personal, customized website domain using Google Domains and GitHub Pages.&lt;/p&gt;
+
+&lt;h4 id=&quot;setup-in-github-repository-&quot;&gt;Setup in Github Repository &lt;a name=&quot;repos&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Let’s start with your Github Repository. If you don’t have a repository started, head to this &lt;a href=&quot;https://github.com/new&quot;&gt;link&lt;/a&gt; to create one.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/06/Google-Domain-to-Github-pages/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/06/Google-Domain-to-Github-pages/</guid>
+        
+        <category>Blog</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Outreach Design</title>
+        <description>&lt;p&gt;layout: portfoliopost
+comments: true
+title: Redesign a company’s learning site
+subtitle: “The roadmap to engage employees through online learning offers.”
+date: 2018-07-25
+tags: [Post]
+author: “Lisa Jiamsirioungkul”
+header-img: /img/fundo_main.png
+modal-id: ####
+thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
+description: Side Project to study the Outreach.io platform using Outreach’s University site.
+—&lt;/p&gt;
+
+&lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#UX&quot;&gt;UX Design&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#long-term&quot;&gt;Long-Term Goal&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;introduction-&quot;&gt;Introduction &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&quot;ux-design-&quot;&gt;UX Design &lt;a name=&quot;UX&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Getting Started Page
+&lt;img src=&quot;/img/portfolio/Outreach/Getting-started.png&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I would want to adjust the amount of space there is in the getting started and have the font be more aligned.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;“Register&lt;/td&gt;
+      &lt;td&gt;Free” goes to a Login Page; not a registration page&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Login Page
+&lt;img src=&quot;/img/portfolio/Outreach/Login-screen.png&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Within the Login Screen, one thing I would add is a registration button.&lt;/p&gt;
+
+&lt;p&gt;It does not provide any way for the sign up process.&lt;/p&gt;
+
+&lt;h3 id=&quot;long-term-goal-&quot;&gt;Long-Term Goal &lt;a name=&quot;long-term&quot;&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;My long term goal for Outreach is to add a certification for the platform.&lt;/p&gt;
+
+&lt;p&gt;The certification would add value by:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Creating customer engagement to learn the Outreach platform&lt;/li&gt;
+  &lt;li&gt;Employers/supervisiors being training on the tools and see milestones&lt;/li&gt;
+  &lt;li&gt;Certification can be put on your resume&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Thu, 02 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/02/Outreach-Design/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/02/Outreach-Design/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Lisa's Book Reccomendation</title>
+        <description>&lt;h2 id=&quot;lisas-book-reccomendation&quot;&gt;Lisa’s Book Reccomendation&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Business&quot;&gt;Business&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Life&quot;&gt;Life&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Technology&quot;&gt;Technology&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Women&quot;&gt;Women&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#Fiction&quot;&gt;Fiction&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;intro-&quot;&gt;Intro &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;I made of list of highly reccommended reading selection that I made over the years. The books range in a variety of genres from business to cooking. I added links to purchase the book on Amazon (not sponsored), but I would highly encourage checking if your local library has any of them.&lt;/p&gt;
+
+&lt;h4 id=&quot;business-&quot;&gt;Business &lt;a name=&quot;Business&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Find-Your-Why-Practical-Discovering/dp/0143111728&quot;&gt;Find Your Why: A Practical Guide for Discovering Purpose for You and Your Team by Simon Sinek&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;I listened to the audiobook version of this twice! It’s a must read for those searching for your next career move and great for align your team.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Emotional-Intelligence-Managing-Emotions-Positive/dp/0857085441&quot;&gt;Emotional Entelligence by Gill Hasson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X&quot;&gt;The Power of Habit by Charles Duhigg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Culture-Code-Secrets-Highly-Successful/dp/0804176981/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595336&amp;amp;sr=1-1&amp;amp;keywords=The+Culture+Code+by+Daniel+Coyle&quot;&gt;The Culture Code by Daniel Coyle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111108/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595360&amp;amp;sr=1-2&amp;amp;keywords=Grit+by+Angela+Duckworth&quot;&gt;Grit by Angela Duckworth&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--6. Shoe Dog by Phil Knight--&gt;
+&lt;!--7. The Self-Made Billionair Effect by John Sviokla--&gt;
+&lt;!--8. Good to Great by Jim Collins--&gt;
+&lt;!--9. How to Lead When You're Not In Charge by Clay Scroggins--&gt;
+&lt;!--10. Ahead of the Curve by Philip Delves Broughton--&gt;
+
+&lt;h4 id=&quot;life-&quot;&gt;Life &lt;a name=&quot;Life&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308&quot;&gt;The Life-Changing Magic of Tidying Up by Marie Kondo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Life-Changing-Magic-Not-Giving-Spending/dp/0316270725/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595512&amp;amp;sr=1-1&amp;amp;keywords=The+Life-Changing+Magic+of+Not+Giving+a+Fck+by+Sarah+Knight&quot;&gt;The Life-Changing Magic of Not Giving a F*ck by Sarah Knight&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595616&amp;amp;sr=1-1&amp;amp;keywords=The+Subtle+Art+of+Not+Giving+a+Fck+by+Mark+Manson&quot;&gt;The Subtle Art of Not Giving a F*ck by Mark Manson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/You-Are-Badass-Doubting-Greatness/dp/0762447699/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595642&amp;amp;sr=1-2&amp;amp;keywords=You+Are+a+Badass+at+Making+Money+by+Jen+Sincero&quot;&gt;You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life by Jen Sincero&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/You-Are-Badass-Making-Money/dp/0735222975/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595642&amp;amp;sr=1-1&amp;amp;keywords=You+Are+a+Badass+at+Making+Money+by+Jen+Sincero&quot;&gt;You Are a Badass at Making Money by Jen Sincero&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/How-American-Immigrants-Disappointing-Parents/dp/0306903490/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595735&amp;amp;sr=1-1&amp;amp;keywords=How+to+American+by+Jimmy+O.+Yang&quot;&gt;How to American: An Immigrant’s Guide to Disappointing Your Parents by Jimmy O. Yang&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;technology-&quot;&gt;Technology &lt;a name=&quot;Technology&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Decode-Conquer-Answers-Management-Interviews/dp/0615930417/ref=pd_sim_14_1?_encoding=UTF8&amp;amp;pd_rd_i=0615930417&amp;amp;pd_rd_r=f171c71c-99c6-11e8-95e6-37066366b64f&amp;amp;pd_rd_w=7u4tH&amp;amp;pd_rd_wg=ar3IE&amp;amp;pf_rd_i=desktop-dp-sims&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_p=a180fdfb-b54e-4904-85ba-d852197d6c09&amp;amp;pf_rd_r=DQGJZ1ZBG369MPTQVTAA&amp;amp;pf_rd_s=desktop-dp-sims&amp;amp;pf_rd_t=40701&amp;amp;psc=1&amp;amp;refRID=DQGJZ1ZBG369MPTQVTAA&quot;&gt;Decode and Conquer: Answers to Product Management Interviews by Lewis C. Lin&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;This book is a great resource for product management candidates looking for frameworks and sample answers to help you win the interview.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Cracking-PM-Interview-Product-Technology/dp/0984782818/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533594032&amp;amp;sr=1-1&amp;amp;keywords=cracking+the+pm+interview&quot;&gt;Cracking the PM Interview by Gayle Laakmann-Mcdowell&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Comprehensive book in how to get a job in product management.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_sbs_14_1?_encoding=UTF8&amp;amp;pd_rd_i=0984782850&amp;amp;pd_rd_r=ef392012-99c7-11e8-8719-f5a2c5be41ea&amp;amp;pd_rd_w=lgxxC&amp;amp;pd_rd_wg=EJjsr&amp;amp;pf_rd_i=desktop-dp-sims&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_p=f9e73f8b-e90f-46a6-8123-a09c49edb7a8&amp;amp;pf_rd_r=H3WF0HAXHQQYGT1Y8HH8&amp;amp;pf_rd_s=desktop-dp-sims&amp;amp;pf_rd_t=40701&amp;amp;psc=1&amp;amp;refRID=H3WF0HAXHQQYGT1Y8HH8&quot;&gt;Cracking the Coding Interview by Gayle Laakmann-Mcdowell&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;A staple book to preparing for a developer job interview process.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Everybody-Lies-Internet-About-Really/dp/0062390856/ref=sr_1_fkmr0_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533593620&amp;amp;sr=1-1-fkmr0&amp;amp;keywords=Everyone+Lies+by+Seth+Stephens-Davidowitz&quot;&gt;Everyone Lies by Seth Stephens-Davidowitz&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Brilliant read demostrating how big data can give us surprising answers to our social sciences.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582328/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533593776&amp;amp;sr=1-1&amp;amp;keywords=How+Google+Works+by+Eric+Schmidt&quot;&gt;How Google Works by Eric Schmidt&lt;/a&gt;
+6.&lt;a href=&quot;https://www.amazon.com/Experience-Demand-Virtual-Reality-Works/dp/0393253694/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533593587&amp;amp;sr=1-1&amp;amp;keywords=Experience+on+Demand+by+Jeremy+Bailenson&quot;&gt;Experience on Demand by Jeremy Bailenson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397&quot;&gt;Soft Skills: The software developer’s life manual&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;women-&quot;&gt;Women &lt;a name=&quot;Women&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.feministfightclub.com/the-book&quot;&gt;Feminist Fight Club: A Survival Manual for a Sexist Workplace&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Lean-Women-Work-Will-Lead/dp/0385349947/ref=sr_1_1?ie=UTF8&amp;amp;qid=1533594931&amp;amp;sr=8-1&amp;amp;keywords=lean+in&quot;&gt;Lean In: Women, Work, and the Will to Lead by Sheryl Sandberg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Option-Adversity-Building-Resilience-Finding/dp/1524732680/ref=pd_sim_14_1?_encoding=UTF8&amp;amp;pd_rd_i=1524732680&amp;amp;pd_rd_r=0a0780a8-99c9-11e8-b26c-b518a250d2cb&amp;amp;pd_rd_w=m8vPD&amp;amp;pd_rd_wg=IdrwU&amp;amp;pf_rd_i=desktop-dp-sims&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_p=a180fdfb-b54e-4904-85ba-d852197d6c09&amp;amp;pf_rd_r=1RWN72AXXHMFZ287RNMZ&amp;amp;pf_rd_s=desktop-dp-sims&amp;amp;pf_rd_t=40701&amp;amp;psc=1&amp;amp;refRID=1RWN72AXXHMFZ287RNMZ&quot;&gt;Option B: Facing Adversity, Building Resilience, and Finding Joy by Sheryl Sandberg &amp;amp; Adam Grant&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;fiction-&quot;&gt;Fiction &lt;a name=&quot;Fiction&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Crazy-Rich-Asians-Trilogy/dp/0345803787/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595039&amp;amp;sr=1-1&amp;amp;keywords=crazy+rich+asians&quot;&gt;Crazy Rich Asian by Kevin Kwan&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Best-Selling Novel, soon to be &lt;a href=&quot;http://www.crazyrichasiansmovie.com&quot;&gt;movie release on August 18&lt;/a&gt; .&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/China-Girlfriend-Crazy-Asians-Trilogy/dp/0804172064/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595039&amp;amp;sr=1-2&amp;amp;keywords=crazy+rich+asians&quot;&gt;Rich China Girlfriend by Kevin Kwan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Rich-People-Problems-Asians-Trilogy/dp/052543237X/ref=sr_1_3?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595039&amp;amp;sr=1-3&amp;amp;keywords=crazy+rich+asians&quot;&gt;Rich People Problems by Kevin Kwan&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 02 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/02/Books-Reccomendations/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/02/Books-Reccomendations/</guid>
+        
+        <category>Blog</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>My Process to Product Management</title>
+        <description>&lt;h2 id=&quot;my-process-to-product-management&quot;&gt;My Process to Product Management&lt;/h2&gt;
+
+&lt;h4 id=&quot;my-approach---begins-and-ends-with-the-user&quot;&gt;My Approach - begins and ends with the user&lt;/h4&gt;
+
+&lt;p&gt;Quality products are made with the user in mind. Asking thoughtful questions about the user journey and understanding their behaviors, pains points, and preferences help bring me closer to a tailored solution.&lt;/p&gt;
+
+&lt;h4 id=&quot;design-process---no-two-processes-are-the-same&quot;&gt;Design Process - no two processes are the same&lt;/h4&gt;
+
+&lt;p&gt;Depending on the project/client’s objectives, I will put more emphasis on one step or another. The important thing is to learn from actual users, collaborate across teams, and constantly sketch &amp;amp; test possible solutions.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-simple-6-step-approach-to-product-management&quot;&gt;The simple 6 step approach to product management&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Define the problem to be solved.&lt;/li&gt;
+  &lt;li&gt;Design a solution&lt;/li&gt;
+  &lt;li&gt;Write a program that implements the solution&lt;/li&gt;
+  &lt;li&gt;Compile the program&lt;/li&gt;
+  &lt;li&gt;Link objects files&lt;/li&gt;
+  &lt;li&gt;Test and debug program&lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Wed, 01 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/01/Intro-to-PM/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/01/Intro-to-PM/</guid>
+        
+        <category>Blog</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>F5 Data Science Education</title>
+        <description>&lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#explo&quot;&gt;Explore&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prin&quot;&gt;Principles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cluster&quot;&gt;Clustering Data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ref&quot;&gt;Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;introduction-&quot;&gt;Introduction &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Trying to find information using this &lt;a href=&quot;https://archive.ics.uci.edu/ml/datasets/Wholesale+customers&quot;&gt;dataset&lt;/a&gt;. We selected these catorgories: frescos (&lt;code class=&quot;highlighter-rouge&quot;&gt;Fresh&lt;/code&gt;), leite (&lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt;), mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;), congelado (&lt;code class=&quot;highlighter-rouge&quot;&gt;Frozen&lt;/code&gt;), detergente e papel (&lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;) e Delicatessen (&lt;code class=&quot;highlighter-rouge&quot;&gt;Delicatessen&lt;/code&gt;). O objetivo aqui será entender melhor a estrutura desses gastos, como eles se relacionam e se há algum padrão que pode ser explorado para otimizar as vendas.&lt;/p&gt;
+
+&lt;h1 id=&quot;explore-&quot;&gt;Explore &lt;a name=&quot;explo&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Em primeiro lugar, vamos explorar algumas estatísticas simples dos nossos dados, tais como média de gastos por produto, desvio padrão e quantis dos dados.&lt;/p&gt;
+
+&lt;table class=&quot;table table-striped table-bordered table-hover&quot; style=&quot;text-align: center;&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Fresh&lt;/th&gt;
+      &lt;th&gt;Milk&lt;/th&gt;
+      &lt;th&gt;Grocery&lt;/th&gt;
+      &lt;th&gt;Frozen&lt;/th&gt;
+      &lt;th&gt;Detergents_Paper&lt;/th&gt;
+      &lt;th&gt;Delicatessen&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Média&lt;/th&gt;
+      &lt;td&gt;12000.29&lt;/td&gt;
+      &lt;td&gt;5796.26&lt;/td&gt;
+      &lt;td&gt;7951.27&lt;/td&gt;
+      &lt;td&gt;3071.93&lt;/td&gt;
+      &lt;td&gt;2881.49&lt;/td&gt;
+      &lt;td&gt;1524.87&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Desvio Padrão&lt;/th&gt;
+      &lt;td&gt;12647.33&lt;/td&gt;
+      &lt;td&gt;7380.38&lt;/td&gt;
+      &lt;td&gt;9503.16&lt;/td&gt;
+      &lt;td&gt;4854.67&lt;/td&gt;
+      &lt;td&gt;4767.85&lt;/td&gt;
+      &lt;td&gt;2820.10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Mín.&lt;/th&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;55.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;25.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;25%&lt;/th&gt;
+      &lt;td&gt;3127.75&lt;/td&gt;
+      &lt;td&gt;1533.00&lt;/td&gt;
+      &lt;td&gt;2153.00&lt;/td&gt;
+      &lt;td&gt;742.25&lt;/td&gt;
+      &lt;td&gt;256.75&lt;/td&gt;
+      &lt;td&gt;408.25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;50%&lt;/th&gt;
+      &lt;td&gt;8504.00&lt;/td&gt;
+      &lt;td&gt;3627.00&lt;/td&gt;
+      &lt;td&gt;4755.50&lt;/td&gt;
+      &lt;td&gt;1526.00&lt;/td&gt;
+      &lt;td&gt;816.50&lt;/td&gt;
+      &lt;td&gt;965.50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;75%&lt;/th&gt;
+      &lt;td&gt;16933.75&lt;/td&gt;
+      &lt;td&gt;7190.25&lt;/td&gt;
+      &lt;td&gt;10655.75&lt;/td&gt;
+      &lt;td&gt;3554.25&lt;/td&gt;
+      &lt;td&gt;3922.00&lt;/td&gt;
+      &lt;td&gt;1820.25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Máx.&lt;/th&gt;
+      &lt;td&gt;112151.00&lt;/td&gt;
+      &lt;td&gt;73498.00&lt;/td&gt;
+      &lt;td&gt;92780.00&lt;/td&gt;
+      &lt;td&gt;60869.00&lt;/td&gt;
+      &lt;td&gt;40827.00&lt;/td&gt;
+      &lt;td&gt;47943.00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Podemos ver que, em média, a maioria dos gastos dos consumidores é com frescos. Em seguida, gasta-se mais com mercearia, leite, congelados, detergente/papel e delicatssen, nessa ordem. Além disso, os gastos com delicatssen são bem menores do que os com outros produtos.&lt;/p&gt;
+
+&lt;p&gt;Usando um &lt;a href=&quot;https://matheusfacure.github.io/2017/02/15/MQO-formula-analitica/&quot;&gt;modelo de previsão linear simples&lt;/a&gt;, notei que 70% dos gastos com mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;) pode ser explicado pelos gastos nos outros produtos. Isso torna a variável de mercearia parcialmente redundante nos dados. Se tivéssemos muitas variáveis, por eficiência computacional, seria uma boa retirá-la dos dados. Como só temos 6 variáveis, vamos mantê-la. Em seguida, apliquei o logaritmo natural em todas as variáveis. Isso faz com que a distribuição delas fique melhor comportada, isto é, mais próxima de uma gaussiana (curva de sino). Após essa etapa de processamento, coloquei as distribuições e as correlações das variáveis num gráfico.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/relacoes-gastos.png&quot; alt=&quot;relacoes-gastos&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aparentemente, há uma elevada correlação entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;; há também alguma correlação entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;. Isso já nos dá alguma informação sobre o comportamento dos consumidores: quando eles compram produtos de mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;), tendem também a comprar produtos nas categorias papel/detergente e leite. Mais ainda, essas correlações confirmam o que havíamos visto antes, sobre gastos com mercearia serem um tanto redundantes.&lt;/p&gt;
+
+&lt;h1 id=&quot;principles-&quot;&gt;Principles &lt;a name=&quot;Prin&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;A análise de componentes principais é um método de extração de características que busca achar os (tãn tãn tãn tãn!!!) componentes principais dos dados. Como um exemplo super simples, digamos que os consumidores do atacado em questão sejam apenas mães ou pais de crianças pequenas. Nos dados, só temos as quantidades gastas desses consumidores, mas podemos imaginar que esses gastos são manifestações de características que não podemos observar, como estilo de vida. O que podemos fazer então é combinar as nossas variáveis observadas (gastos) para criar variáveis explicativas que melhor condensam os padrões de consumo. Por exemplo, se notarmos que gastos com fraldas e leite em pó variam junto, podemos combinar essas duas variáveis em um único componente, que captura certa essência do fator não observável hábito de consumo de uma família com crianças pequenas. Com isso, reduzimos o número de variáveis nos dados, mas mantemos a informação presente neles: em vez de precisarmos acompanhar duas variáveis de gastos, só precisaremos acompanhar a variação desse novo componente criado. Intuitivamente, podemos pensar nesse componente como representando um fator latente de variação nos dados observáveis. Talvez esse fator latente seja estrutura familiar, mas, de qualquer forma o importante é que ele ajude a explicar variações de consumo.&lt;/p&gt;
+
+&lt;p&gt;Análise de Componentes Principais (ACP) faz justamente isso. Essa técnica maximiza a variação dos dados nos componentes extraídos, ao mesmo tempo que minimiza o erro de reconstrução, isto é, minimiza a perda de informação que se tem ao manter apenas os componentes principais mais importantes, descartando-se os demais. Usando ACP, substituímos nossas 6 variáveis observáveis em seis componentes principais, sendo que os primeiros componentes explicam a maioria da variação nos dados originais, isto é, no consumo. Podemos inclusive ver como as variáveis originais são utilizadas para criar esses componentes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-composicao.png&quot; alt=&quot;PCA1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note como 71,9% (0,4424 + 0,2766) da variação nos dados pode ser explicada pelos dois primeiros componentes principais e como os quatro primeiros explicam 93,14% dessa variância. O primeiro componente principal é composto majoritariamente por &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergent_Paper&lt;/code&gt; e um pouco por &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;. A partir deste componente principal, podemos ver que os clientes que gastam mais com leite tendem a gastar mais em mercearia e em detergente/papel. Também mostra que os clientes diferem principalmente pela diferença nos gastos com esses três produtos. O segundo componente principal, por sua vez, é composto principalmente por &lt;code class=&quot;highlighter-rouge&quot;&gt;Fresh&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Frozen&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Delicatssen&lt;/code&gt;. Isso mostra que a segunda maior fonte de diferença entre os clientes vem de seus gastos com produtos frescos, congelados e delicatssen. A partir desse componente principal, podemos inferir que os clientes que gastam mais em frescos também tendem a gastar mais em congelados e delicatssen. O mesmo raciocínio pode ser feito para os outros componentes extraídos. Antes de prosseguir, descartei todos os componentes principais menos os dois primeiros. Isso resulta em certa perda de informação, mas nada grave, já que eles sozinhos preservam quase 72% da informação original. Como só estamos com dois componentes principais, podemos colocá-los em um gráfico e visualizar como as variáveis originais de consumo estão relacionadas com os dois primeiros componentes principais.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-biplot.png&quot; alt=&quot;PCA2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Claramente, quanto mais negativo for o primeiro componente principal de uma observação, mais esse consumidor compra leite, produtos de mercearia e detergente/papel. Além disso, consumidores com o primeiro componente principal positivo compram menos de todas as categorias de produtos, o que me leva a crer que são, provavelmente, estabelecimentos menores. Com o mesmo tipo de raciocínio, podemos dizer que consumidores cujo segundo componente principal é negativo compram mais frescos, congelados e delicatssen.&lt;/p&gt;
+
+&lt;h1 id=&quot;clustering-data-&quot;&gt;Clustering Data &lt;a name=&quot;cluster&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Com os dados reduzidos, prossegui para algoritmos de clusterização, para tentar identificar segmentos de mercado. O método usado foi de &lt;a href=&quot;https://www.youtube.com/watch?v=REypj2sy_5U&quot;&gt;Expectativa-Maximização&lt;/a&gt;, que identifica &lt;em&gt;clusters&lt;/em&gt; de forma iterativa. O número ótimo de &lt;em&gt;clusters&lt;/em&gt; encontrado foi dois.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/GMM-biplot.png&quot; alt=&quot;GMM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;How we cluster data.&lt;/p&gt;
+
+&lt;h1 id=&quot;reference-&quot;&gt;Reference &lt;a name=&quot;ref&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Este trabalho é uma adaptação do terceiro projeto do &lt;a href=&quot;https://br.udacity.com/course/machine-learning-engineer-nanodegree--nd009/?gclid=Cj0KEQjw9r7JBRCj37PlltTskaMBEiQAKTzTfFcElVRXhgn0LpGDkFgyBmi0C71whULjIq3rpRANFusaAtlH8P8HAQ&quot;&gt;Nanodegree Engenheiro de Machine Learning da Udacity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Você pode conferir a implementação completa do projeto &lt;a href=&quot;https://github.com/matheusfacure/Tutoriais-de-AM/tree/master/Exemplos&quot;&gt;no GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Jul 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/07/25/F5-Data-Science-Education/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/25/F5-Data-Science-Education/</guid>
+        
+        <category>Post</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Portfoliotemplate</title>
+        <description>
+&lt;!---
+layout: portfoliopost
+comments: true
+title: Title name
+subtitle: &quot;subtitle name&quot;
+date: 2018-07-25
+tags: [Post]
+author: &quot;Lisa Jiamsirioungkul&quot;
+header-img: /img/fundo_main.png
+modal-id: ####
+thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
+description: Projects description......... 
+---
+
+## Content
+1. [Introduction](#intro) 
+2. [Explore](#explo)
+3. [Principles](#prin)
+4. [Clustering Data](#cluster)
+5. [Reference](#ref)
+
+# Introduction &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;
+
+Trying to find information using this [dataset](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers). We selected these catorgories: frescos (`Fresh`), leite (`Milk`), mercearia (`Grocery`), congelado (`Frozen`), detergente e papel (`Detergents_Paper`) e Delicatessen (`Delicatessen`). O objetivo aqui será entender melhor a estrutura desses gastos, como eles se relacionam e se há algum padrão que pode ser explorado para otimizar as vendas.
+
+# Explore &lt;a name=&quot;explo&quot;&gt;&lt;/a&gt;
+
+Em primeiro lugar, vamos explorar algumas estatísticas simples dos nossos dados, tais como média de gastos por produto, desvio padrão e quantis dos dados.
+
+&lt;table class=&quot;table table-striped table-bordered table-hover&quot; style=&quot;text-align: center;&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Fresh&lt;/th&gt;
+      &lt;th&gt;Milk&lt;/th&gt;
+      &lt;th&gt;Grocery&lt;/th&gt;
+      &lt;th&gt;Frozen&lt;/th&gt;
+      &lt;th&gt;Detergents_Paper&lt;/th&gt;
+      &lt;th&gt;Delicatessen&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Média&lt;/th&gt;
+      &lt;td&gt;12000.29&lt;/td&gt;
+      &lt;td&gt;5796.26&lt;/td&gt;
+      &lt;td&gt;7951.27&lt;/td&gt;
+      &lt;td&gt;3071.93&lt;/td&gt;
+      &lt;td&gt;2881.49&lt;/td&gt;
+      &lt;td&gt;1524.87&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Desvio Padrão&lt;/th&gt;
+      &lt;td&gt;12647.33&lt;/td&gt;
+      &lt;td&gt;7380.38&lt;/td&gt;
+      &lt;td&gt;9503.16&lt;/td&gt;
+      &lt;td&gt;4854.67&lt;/td&gt;
+      &lt;td&gt;4767.85&lt;/td&gt;
+      &lt;td&gt;2820.10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Mín.&lt;/th&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;55.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;25.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;25%&lt;/th&gt;
+      &lt;td&gt;3127.75&lt;/td&gt;
+      &lt;td&gt;1533.00&lt;/td&gt;
+      &lt;td&gt;2153.00&lt;/td&gt;
+      &lt;td&gt;742.25&lt;/td&gt;
+      &lt;td&gt;256.75&lt;/td&gt;
+      &lt;td&gt;408.25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;50%&lt;/th&gt;
+      &lt;td&gt;8504.00&lt;/td&gt;
+      &lt;td&gt;3627.00&lt;/td&gt;
+      &lt;td&gt;4755.50&lt;/td&gt;
+      &lt;td&gt;1526.00&lt;/td&gt;
+      &lt;td&gt;816.50&lt;/td&gt;
+      &lt;td&gt;965.50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;75%&lt;/th&gt;
+      &lt;td&gt;16933.75&lt;/td&gt;
+      &lt;td&gt;7190.25&lt;/td&gt;
+      &lt;td&gt;10655.75&lt;/td&gt;
+      &lt;td&gt;3554.25&lt;/td&gt;
+      &lt;td&gt;3922.00&lt;/td&gt;
+      &lt;td&gt;1820.25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Máx.&lt;/th&gt;
+      &lt;td&gt;112151.00&lt;/td&gt;
+      &lt;td&gt;73498.00&lt;/td&gt;
+      &lt;td&gt;92780.00&lt;/td&gt;
+      &lt;td&gt;60869.00&lt;/td&gt;
+      &lt;td&gt;40827.00&lt;/td&gt;
+      &lt;td&gt;47943.00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+Podemos ver que, em média, a maioria dos gastos dos consumidores é com frescos. Em seguida, gasta-se mais com mercearia, leite, congelados, detergente/papel e delicatssen, nessa ordem. Além disso, os gastos com delicatssen são bem menores do que os com outros produtos.
+
+Usando um [modelo de previsão linear simples](https://matheusfacure.github.io/2017/02/15/MQO-formula-analitica/), notei que 70% dos gastos com mercearia (`Grocery`) pode ser explicado pelos gastos nos outros produtos. Isso torna a variável de mercearia parcialmente redundante nos dados. Se tivéssemos muitas variáveis, por eficiência computacional, seria uma boa retirá-la dos dados. Como só temos 6 variáveis, vamos mantê-la. Em seguida, apliquei o logaritmo natural em todas as variáveis. Isso faz com que a distribuição delas fique melhor comportada, isto é, mais próxima de uma gaussiana (curva de sino). Após essa etapa de processamento, coloquei as distribuições e as correlações das variáveis num gráfico.
+
+&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/relacoes-gastos.png&quot; alt=&quot;relacoes-gastos&quot; /&gt;
+
+Aparentemente, há uma elevada correlação entre `Grocery` e `Detergents_Paper`; há também alguma correlação entre `Grocery` e `Milk` e entre `Milk` e `Detergents_Paper`. Isso já nos dá alguma informação sobre o comportamento dos consumidores: quando eles compram produtos de mercearia (`Grocery`), tendem também a comprar produtos nas categorias papel/detergente e leite. Mais ainda, essas correlações confirmam o que havíamos visto antes, sobre gastos com mercearia serem um tanto redundantes.
+
+# Principles &lt;a name=&quot;Prin&quot;&gt;&lt;/a&gt;
+
+A análise de componentes principais é um método de extração de características que busca achar os (tãn tãn tãn tãn!!!) componentes principais dos dados. Como um exemplo super simples, digamos que os consumidores do atacado em questão sejam apenas mães ou pais de crianças pequenas. Nos dados, só temos as quantidades gastas desses consumidores, mas podemos imaginar que esses gastos são manifestações de características que não podemos observar, como estilo de vida. O que podemos fazer então é combinar as nossas variáveis observadas (gastos) para criar variáveis explicativas que melhor condensam os padrões de consumo. Por exemplo, se notarmos que gastos com fraldas e leite em pó variam junto, podemos combinar essas duas variáveis em um único componente, que captura certa essência do fator não observável hábito de consumo de uma família com crianças pequenas. Com isso, reduzimos o número de variáveis nos dados, mas mantemos a informação presente neles: em vez de precisarmos acompanhar duas variáveis de gastos, só precisaremos acompanhar a variação desse novo componente criado. Intuitivamente, podemos pensar nesse componente como representando um fator latente de variação nos dados observáveis. Talvez esse fator latente seja estrutura familiar, mas, de qualquer forma o importante é que ele ajude a explicar variações de consumo. 
+
+Análise de Componentes Principais (ACP) faz justamente isso. Essa técnica maximiza a variação dos dados nos componentes extraídos, ao mesmo tempo que minimiza o erro de reconstrução, isto é, minimiza a perda de informação que se tem ao manter apenas os componentes principais mais importantes, descartando-se os demais. Usando ACP, substituímos nossas 6 variáveis observáveis em seis componentes principais, sendo que os primeiros componentes explicam a maioria da variação nos dados originais, isto é, no consumo. Podemos inclusive ver como as variáveis originais são utilizadas para criar esses componentes.
+
+&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-composicao.png&quot; alt=&quot;PCA1&quot; /&gt;
+
+Note como 71,9% (0,4424 + 0,2766) da variação nos dados pode ser explicada pelos dois primeiros componentes principais e como os quatro primeiros explicam 93,14% dessa variância. O primeiro componente principal é composto majoritariamente por `Detergent_Paper` e um pouco por `Milk` e `Grocery`. A partir deste componente principal, podemos ver que os clientes que gastam mais com leite tendem a gastar mais em mercearia e em detergente/papel. Também mostra que os clientes diferem principalmente pela diferença nos gastos com esses três produtos. O segundo componente principal, por sua vez, é composto principalmente por `Fresh`, `Frozen` e `Delicatssen`. Isso mostra que a segunda maior fonte de diferença entre os clientes vem de seus gastos com produtos frescos, congelados e delicatssen. A partir desse componente principal, podemos inferir que os clientes que gastam mais em frescos também tendem a gastar mais em congelados e delicatssen. O mesmo raciocínio pode ser feito para os outros componentes extraídos. Antes de prosseguir, descartei todos os componentes principais menos os dois primeiros. Isso resulta em certa perda de informação, mas nada grave, já que eles sozinhos preservam quase 72% da informação original. Como só estamos com dois componentes principais, podemos colocá-los em um gráfico e visualizar como as variáveis originais de consumo estão relacionadas com os dois primeiros componentes principais.
+
+&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-biplot.png&quot; alt=&quot;PCA2&quot; /&gt;
+
+Claramente, quanto mais negativo for o primeiro componente principal de uma observação, mais esse consumidor compra leite, produtos de mercearia e detergente/papel. Além disso, consumidores com o primeiro componente principal positivo compram menos de todas as categorias de produtos, o que me leva a crer que são, provavelmente, estabelecimentos menores. Com o mesmo tipo de raciocínio, podemos dizer que consumidores cujo segundo componente principal é negativo compram mais frescos, congelados e delicatssen.
+
+# Clustering Data &lt;a name=&quot;cluster&quot;&gt;&lt;/a&gt;
+
+Com os dados reduzidos, prossegui para algoritmos de clusterização, para tentar identificar segmentos de mercado. O método usado foi de [Expectativa-Maximização](https://www.youtube.com/watch?v=REypj2sy_5U), que identifica *clusters* de forma iterativa. O número ótimo de *clusters* encontrado foi dois. 
+
+&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/GMM-biplot.png&quot; alt=&quot;GMM&quot; /&gt;
+
+How we cluster data.
+
+# Reference &lt;a name=&quot;ref&quot;&gt;&lt;/a&gt;
+
+Este trabalho é uma adaptação do terceiro projeto do [Nanodegree Engenheiro de Machine Learning da Udacity](https://br.udacity.com/course/machine-learning-engineer-nanodegree--nd009/?gclid=Cj0KEQjw9r7JBRCj37PlltTskaMBEiQAKTzTfFcElVRXhgn0LpGDkFgyBmi0C71whULjIq3rpRANFusaAtlH8P8HAQ).
+
+Você pode conferir a implementação completa do projeto [no GitHub](https://github.com/matheusfacure/Tutoriais-de-AM/tree/master/Exemplos).
+--&gt;
+</description>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2018/01/01/portfoliotemplate/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/01/portfoliotemplate/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

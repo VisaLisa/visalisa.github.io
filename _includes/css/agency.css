@@ -301,7 +301,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     line-height: 50px;
 }
@@ -334,6 +334,7 @@ section {
     padding: 50px 0;
 }
 
+/*Home page heading font size*/
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
@@ -898,9 +899,11 @@ body {
    margin-top: 30px;		
    margin-bottom: 10px;		
  }		
- .post-preview > a > .post-subtitle {		
-   margin: 0;		
-   font-weight: 300;		
+
+.post-preview > a > .post-subtitle {
+     margin: 0; 
+     font-size:14px ;
+     font-weight: 300;		
    margin-bottom: 10px;		
  }		
  .post-preview > .post-meta {		
@@ -917,9 +920,10 @@ body {
  .post-preview > .post-meta > a:focus {		
    color: #0085a1;		
    text-decoration: underline;		
- }		
+ }
+/* NOTE: Adjusted blog post font size */
  @media only screen and (min-width: 768px) {		
    .post-preview > a > .post-title {		
-     font-size: 36px;		
+     font-size: 23px;		
    }		
  }
