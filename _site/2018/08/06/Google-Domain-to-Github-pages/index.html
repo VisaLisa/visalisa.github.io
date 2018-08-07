@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>How To Add A Custom Domain To Github pages</title>
+    <title>5 Steps To Adding A Custom Domain To Github Pages</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Product Manager">
     <link rel="canonical" href="http://localhost:4000/2018/08/06/Google-Domain-to-Github-pages/">
@@ -85,9 +85,9 @@
     <div class="container">
         <div class="intro-text">
             <div class="intro-heading">
-            How To Add A Custom Domain To Github pages
+            5 Steps To Adding A Custom Domain To Github Pages
             <hr style="height:5px;background-color: #fff;">
-            <span class="subheading"><h3>Setting Up a Custom Google Domain For Your GitHub<h3></span>
+            <span class="subheading"><h3>Setting Up A Custom Google Domain For Your GitHub<h3></span>
             </div>
         </div>
     </div>
@@ -114,25 +114,117 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-                <h2 id="how-to-add-your-own-custome-domain-to-github-pages">How To Add Your Own Custome Domain to Github pages</h2>
+                <h2 id="5-steps-to-adding-a-custom-domain-to-github-pages">5 Steps To Adding A Custom Domain To Github Pages</h2>
 
 <p><br /></p>
 <h3 id="content">Content</h3>
 
 <ol>
   <li><a href="#intro">Introduction</a></li>
-  <li><a href="#repos">Setup in Github Repository</a></li>
-  <li><a href="#domain">Configure on Google Domain</a></li>
+  <li><a href="#repos">Setup in Github Repository</a>
+    <ul>
+      <li><a href="#create">Step 1: Creating a GitHub Repository</a></li>
+      <li><a href="#cname">Step 2: Adding CNAME file</a></li>
+      <li><a href="#settings">Step 3: Verify Settings</a></li>
+    </ul>
+  </li>
+  <li><a href="#domain">Configuring the Google Domain</a>
+    <ul>
+      <li><a href="#config">Step 4: Configure Google Domains</a></li>
+      <li><a href="#done">Step 5: We’re Done</a></li>
+    </ul>
+  </li>
   <li><a href="#conclusion">Conclusion</a></li>
 </ol>
 
+<p><br /></p>
 <h4 id="introduction-">Introduction <a name="intro"></a></h4>
 
 <p>This guide is to simplify the process of setting up a personal, customized website domain using Google Domains and GitHub Pages.</p>
 
+<p><br /></p>
 <h4 id="setup-in-github-repository-">Setup in Github Repository <a name="repos"></a></h4>
 
-<p>Let’s start with your Github Repository. If you don’t have a repository started, head to this <a href="https://github.com/new">link</a> to create one.</p>
+<h5 id="step-1-creating-a-github-repository-">Step 1: Creating a GitHub Repository <a name="create"></a></h5>
+
+<p>Let’s start with your Github Repository. If you don’t have a repository started, head to this <a href="https://github.com/new">link</a> to create with the name <b><u>USERNAME</u>.github.io</b>. In the picture example, I’m using my personal github.io.</p>
+
+<p><img src="/img/blog-img/step1.png" width="718px" /></p>
+
+<h5 id="step-2-adding-cname-file-">Step 2: Adding CNAME file <a name="cname"></a></h5>
+
+<p>In your new repository, create a <b>CNAME</b> file in the root directory and add the following to the file: <b>www.<u>YOUR-WEBSITE-NAME</u>.com</b></p>
+
+<p>By doing this, we add the domain name in the CNAME file to specify and redirect any request to <b><u>USERNAME</u>.github.io</b>
+<img src="/img/blog-img/step2.png" width="718px" /></p>
+
+<h5 id="step-3-verify-settings">Step 3: Verify Settings<a name="settings"></a></h5>
+
+<p>Now verify that <b><u>USERNAME</u>.github.io</b> is directing to <b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>.
+    - Head to repository’s the ‘Setting’ page. 
+    - Under ‘GitHub Pages’, your site should be published at “<b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>.”
+<img src="/img/blog-img/step3.png" width="718px" /></p>
+
+<p><br /></p>
+<h4 id="configuring-the-google-domain-">Configuring the Google Domain <a name="domain"></a></h4>
+
+<h5 id="step-4-configure-google-domains-">Step 4: Configure Google Domains <a name="config"></a></h5>
+
+<p>Let’s get your custom domain from Google. Head to <a href="https://domains.google.com/registrar">‘My Domains’</a> and select the DNS button to configure your DNS record.
+<img src="/img/blog-img/step4.png" width="718px" /></p>
+
+<p>Go to the ‘<b>Custom Resource Records</b>’ section. You will be adding a following:</p>
+
+<table class="table table-striped table-bordered table-hover" style="text-align: center;">
+ <thead>
+    <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>TTL</th>
+      <th>Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>@</th>
+      <td>A</td>
+      <td>1h</td>
+      <td>192.30.252.153</td>
+    </tr>
+    <tr>
+      <th></th>
+      <td></td>
+      <td></td>
+      <td>192.30.252.154</td>
+    </tr>
+    <tr>
+      <th>www</th>
+      <td>CNAME</td>
+      <td>1h</td>
+      <td><b><u>USERNAME</u>.github.io</b></td>
+    </tr>
+  </tbody>
+</table>
+
+<h5 id="step-5-were-done-">Step 5: We’re Done <a name="done"></a></h5>
+
+<p>It should look like this when you’re done.</p>
+
+<p><img src="/img/blog-img/step5.png" width="718px" /></p>
+
+<p><br /></p>
+<h4 id="conclusion-">Conclusion <a name="conclusion"></a></h4>
+
+<p>Now we're done! The DNS records can sometime take more than 24 hour to display your website, so you may not see it immediately. In the time being, adding new pages to your Github website should be accessible from your new domain. </p>
+
+<p>To test the page, I would use to see if your DNS record has come through:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    www.USERNAME.github.io
+    www.YOUR-WEBSITE-NAME.com
+    www.USERNAME.github.io/about
+    www.YOUR-WEBSITE-NAME.com/about
+</code></pre></div></div>
+
 
 
                 <hr>
@@ -218,39 +310,6 @@ s.setAttribute('data-timestamp', +new Date());
 
     
 
-    
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>F5 Data Science Education</h2>
-                            <hr class="star-primary">
-                            <img src="/img/portfolio/un-ml-client/GMM-biplot.png" class="img-responsive img-centered" alt="">
-                            <p>There was a need for Data Science education at F5 Networks Projects</p>
-                            <ul class="list-inline item-details">
-                                <li>Posted
-                                    <strong>7/25/2018</strong>
-                                </li>
-                                
-                            </ul>
-                            <a href="/2018/07/25/F5-Data-Science-Education/">
-                            <button type="button" class="btn btn-default", style="background-color: #ececec; font-size: 110%; font-weight: bolder; color: #fc645f">
-                            More</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     
 
     

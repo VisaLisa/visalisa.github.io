@@ -26,11 +26,12 @@ header-img: "img/dark-ann.jpg"
     - [Step 5: We're Done](#done)
 4. [Conclusion](#conclusion)
 
-
+<br>
 #### Introduction <a name="intro"></a>
 
 This guide is to simplify the process of setting up a personal, customized website domain using Google Domains and GitHub Pages.  
 
+<br>
 #### Setup in Github Repository <a name="repos"></a>
 
 ##### Step 1: Creating a GitHub Repository <a name="create"></a>
@@ -41,19 +42,19 @@ Let's start with your Github Repository. If you don't have a repository started,
 
 ##### Step 2: Adding CNAME file <a name="cname"></a>
 
-In your new repository, create a <b>CNAME</b> file in the root directory and add the following:
-    - <b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>
-    - <b><u>YOUR-WEBSITE-NAME</u>.com</b>
- By doing this, we add the domain name in the CNAME file to specify and redirect any request to <b><u>USERNAME</u>.github.io</b>
+In your new repository, create a <b>CNAME</b> file in the root directory and add the following to the file: <b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>
+
+By doing this, we add the domain name in the CNAME file to specify and redirect any request to <b><u>USERNAME</u>.github.io</b>
 <img src="/img/blog-img/step2.png" width="718px">
 
 ##### Step 3: Verify Settings<a name="settings"></a>
 
 Now verify that <b><u>USERNAME</u>.github.io</b> is directing to <b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>.
-    -Head to repository's the 'Setting' page. 
-    -Under 'GitHub Pages', your site should be published at "<b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>."
+    - Head to repository's the 'Setting' page. 
+    - Under 'GitHub Pages', your site should be published at "<b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>."
 <img src="/img/blog-img/step3.png" width="718px">    
-    
+
+<br>    
 #### Configuring the Google Domain <a name="domain"></a>
 
 ##### Step 4: Configure Google Domains <a name="config"></a>
@@ -76,7 +77,7 @@ Go to the '<b>Custom Resource Records</b>' section. You will be adding a followi
     <tr>
       <th>@</th>
       <td>A</td>
-      <td>1h/td>
+      <td>1h</td>
       <td>192.30.252.153</td>
     </tr>
     <tr>
@@ -84,7 +85,6 @@ Go to the '<b>Custom Resource Records</b>' section. You will be adding a followi
       <td></td>
       <td></td>
       <td>192.30.252.154</td>
-      <td>4854.67</td>
     </tr>
     <tr>
       <th>www</th>
@@ -101,14 +101,17 @@ It should look like this when you're done.
 
 <img src="/img/blog-img/step5.png" width="718px">
 
+<br>
 #### Conclusion <a name="conclusion"></a>
 
-Now we're done! The DNS records can sometime take more than 24 hour to display your website, so you may not see it immediately. In the time being, adding new pages to your Github website should be accessible from your new domain. 
+<p>Now we're done! The DNS records can sometime take more than 24 hour to display your website, so you may not see it immediately. In the time being, adding new pages to your Github website should be accessible from your new domain. </p>
 
-To test the page, I would use to see if your DNS record has come through:
-    - USERNAME.github.io
-    - www.YOUR-WEBSITE-NAME.com
-    - USERNAME.github.io/about
-    - www.YOUR-WEBSITE-NAME.com/about
+<p>To test the page, I would use to see if your DNS record has come through:</p>
+    
+        www.USERNAME.github.io
+        www.YOUR-WEBSITE-NAME.com
+        www.USERNAME.github.io/about
+        www.YOUR-WEBSITE-NAME.com/about
+    
 
 

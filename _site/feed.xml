@@ -5,8 +5,8 @@
     <description>Product Manager</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
-    <lastBuildDate>Mon, 06 Aug 2018 16:45:17 -0700</lastBuildDate>
+    <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
+    <lastBuildDate>Mon, 06 Aug 2018 18:06:51 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -24,9 +24,150 @@
 &lt;p&gt;During this hunting time, life can be a blur. “What day is today?” “What’s on the to-do list?” “What’s can I do?” are just some of the questions you might be asking yourself.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-08-01-The-Job-Hunt/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-08-01-The-Job-Hunt/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title></title>
+        <description>&lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#explo&quot;&gt;Explore&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#prin&quot;&gt;Principles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cluster&quot;&gt;Clustering Data&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ref&quot;&gt;Reference&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;introduction-&quot;&gt;Introduction &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Trying to find information using this &lt;a href=&quot;https://archive.ics.uci.edu/ml/datasets/Wholesale+customers&quot;&gt;dataset&lt;/a&gt;. We selected these catorgories: frescos (&lt;code class=&quot;highlighter-rouge&quot;&gt;Fresh&lt;/code&gt;), leite (&lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt;), mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;), congelado (&lt;code class=&quot;highlighter-rouge&quot;&gt;Frozen&lt;/code&gt;), detergente e papel (&lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;) e Delicatessen (&lt;code class=&quot;highlighter-rouge&quot;&gt;Delicatessen&lt;/code&gt;). O objetivo aqui será entender melhor a estrutura desses gastos, como eles se relacionam e se há algum padrão que pode ser explorado para otimizar as vendas.&lt;/p&gt;
+
+&lt;h1 id=&quot;explore-&quot;&gt;Explore &lt;a name=&quot;explo&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Em primeiro lugar, vamos explorar algumas estatísticas simples dos nossos dados, tais como média de gastos por produto, desvio padrão e quantis dos dados.&lt;/p&gt;
+
+&lt;table class=&quot;table table-striped table-bordered table-hover&quot; style=&quot;text-align: center;&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;th&gt;Fresh&lt;/th&gt;
+      &lt;th&gt;Milk&lt;/th&gt;
+      &lt;th&gt;Grocery&lt;/th&gt;
+      &lt;th&gt;Frozen&lt;/th&gt;
+      &lt;th&gt;Detergents_Paper&lt;/th&gt;
+      &lt;th&gt;Delicatessen&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Média&lt;/th&gt;
+      &lt;td&gt;12000.29&lt;/td&gt;
+      &lt;td&gt;5796.26&lt;/td&gt;
+      &lt;td&gt;7951.27&lt;/td&gt;
+      &lt;td&gt;3071.93&lt;/td&gt;
+      &lt;td&gt;2881.49&lt;/td&gt;
+      &lt;td&gt;1524.87&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Desvio Padrão&lt;/th&gt;
+      &lt;td&gt;12647.33&lt;/td&gt;
+      &lt;td&gt;7380.38&lt;/td&gt;
+      &lt;td&gt;9503.16&lt;/td&gt;
+      &lt;td&gt;4854.67&lt;/td&gt;
+      &lt;td&gt;4767.85&lt;/td&gt;
+      &lt;td&gt;2820.10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Mín.&lt;/th&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;55.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;25.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+      &lt;td&gt;3.00&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;25%&lt;/th&gt;
+      &lt;td&gt;3127.75&lt;/td&gt;
+      &lt;td&gt;1533.00&lt;/td&gt;
+      &lt;td&gt;2153.00&lt;/td&gt;
+      &lt;td&gt;742.25&lt;/td&gt;
+      &lt;td&gt;256.75&lt;/td&gt;
+      &lt;td&gt;408.25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;50%&lt;/th&gt;
+      &lt;td&gt;8504.00&lt;/td&gt;
+      &lt;td&gt;3627.00&lt;/td&gt;
+      &lt;td&gt;4755.50&lt;/td&gt;
+      &lt;td&gt;1526.00&lt;/td&gt;
+      &lt;td&gt;816.50&lt;/td&gt;
+      &lt;td&gt;965.50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;75%&lt;/th&gt;
+      &lt;td&gt;16933.75&lt;/td&gt;
+      &lt;td&gt;7190.25&lt;/td&gt;
+      &lt;td&gt;10655.75&lt;/td&gt;
+      &lt;td&gt;3554.25&lt;/td&gt;
+      &lt;td&gt;3922.00&lt;/td&gt;
+      &lt;td&gt;1820.25&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Máx.&lt;/th&gt;
+      &lt;td&gt;112151.00&lt;/td&gt;
+      &lt;td&gt;73498.00&lt;/td&gt;
+      &lt;td&gt;92780.00&lt;/td&gt;
+      &lt;td&gt;60869.00&lt;/td&gt;
+      &lt;td&gt;40827.00&lt;/td&gt;
+      &lt;td&gt;47943.00&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Podemos ver que, em média, a maioria dos gastos dos consumidores é com frescos. Em seguida, gasta-se mais com mercearia, leite, congelados, detergente/papel e delicatssen, nessa ordem. Além disso, os gastos com delicatssen são bem menores do que os com outros produtos.&lt;/p&gt;
+
+&lt;p&gt;Usando um &lt;a href=&quot;https://matheusfacure.github.io/2017/02/15/MQO-formula-analitica/&quot;&gt;modelo de previsão linear simples&lt;/a&gt;, notei que 70% dos gastos com mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;) pode ser explicado pelos gastos nos outros produtos. Isso torna a variável de mercearia parcialmente redundante nos dados. Se tivéssemos muitas variáveis, por eficiência computacional, seria uma boa retirá-la dos dados. Como só temos 6 variáveis, vamos mantê-la. Em seguida, apliquei o logaritmo natural em todas as variáveis. Isso faz com que a distribuição delas fique melhor comportada, isto é, mais próxima de uma gaussiana (curva de sino). Após essa etapa de processamento, coloquei as distribuições e as correlações das variáveis num gráfico.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/relacoes-gastos.png&quot; alt=&quot;relacoes-gastos&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aparentemente, há uma elevada correlação entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;; há também alguma correlação entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;. Isso já nos dá alguma informação sobre o comportamento dos consumidores: quando eles compram produtos de mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;), tendem também a comprar produtos nas categorias papel/detergente e leite. Mais ainda, essas correlações confirmam o que havíamos visto antes, sobre gastos com mercearia serem um tanto redundantes.&lt;/p&gt;
+
+&lt;h1 id=&quot;principles-&quot;&gt;Principles &lt;a name=&quot;Prin&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;A análise de componentes principais é um método de extração de características que busca achar os (tãn tãn tãn tãn!!!) componentes principais dos dados. Como um exemplo super simples, digamos que os consumidores do atacado em questão sejam apenas mães ou pais de crianças pequenas. Nos dados, só temos as quantidades gastas desses consumidores, mas podemos imaginar que esses gastos são manifestações de características que não podemos observar, como estilo de vida. O que podemos fazer então é combinar as nossas variáveis observadas (gastos) para criar variáveis explicativas que melhor condensam os padrões de consumo. Por exemplo, se notarmos que gastos com fraldas e leite em pó variam junto, podemos combinar essas duas variáveis em um único componente, que captura certa essência do fator não observável hábito de consumo de uma família com crianças pequenas. Com isso, reduzimos o número de variáveis nos dados, mas mantemos a informação presente neles: em vez de precisarmos acompanhar duas variáveis de gastos, só precisaremos acompanhar a variação desse novo componente criado. Intuitivamente, podemos pensar nesse componente como representando um fator latente de variação nos dados observáveis. Talvez esse fator latente seja estrutura familiar, mas, de qualquer forma o importante é que ele ajude a explicar variações de consumo.&lt;/p&gt;
+
+&lt;p&gt;Análise de Componentes Principais (ACP) faz justamente isso. Essa técnica maximiza a variação dos dados nos componentes extraídos, ao mesmo tempo que minimiza o erro de reconstrução, isto é, minimiza a perda de informação que se tem ao manter apenas os componentes principais mais importantes, descartando-se os demais. Usando ACP, substituímos nossas 6 variáveis observáveis em seis componentes principais, sendo que os primeiros componentes explicam a maioria da variação nos dados originais, isto é, no consumo. Podemos inclusive ver como as variáveis originais são utilizadas para criar esses componentes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-composicao.png&quot; alt=&quot;PCA1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note como 71,9% (0,4424 + 0,2766) da variação nos dados pode ser explicada pelos dois primeiros componentes principais e como os quatro primeiros explicam 93,14% dessa variância. O primeiro componente principal é composto majoritariamente por &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergent_Paper&lt;/code&gt; e um pouco por &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;. A partir deste componente principal, podemos ver que os clientes que gastam mais com leite tendem a gastar mais em mercearia e em detergente/papel. Também mostra que os clientes diferem principalmente pela diferença nos gastos com esses três produtos. O segundo componente principal, por sua vez, é composto principalmente por &lt;code class=&quot;highlighter-rouge&quot;&gt;Fresh&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Frozen&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Delicatssen&lt;/code&gt;. Isso mostra que a segunda maior fonte de diferença entre os clientes vem de seus gastos com produtos frescos, congelados e delicatssen. A partir desse componente principal, podemos inferir que os clientes que gastam mais em frescos também tendem a gastar mais em congelados e delicatssen. O mesmo raciocínio pode ser feito para os outros componentes extraídos. Antes de prosseguir, descartei todos os componentes principais menos os dois primeiros. Isso resulta em certa perda de informação, mas nada grave, já que eles sozinhos preservam quase 72% da informação original. Como só estamos com dois componentes principais, podemos colocá-los em um gráfico e visualizar como as variáveis originais de consumo estão relacionadas com os dois primeiros componentes principais.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-biplot.png&quot; alt=&quot;PCA2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Claramente, quanto mais negativo for o primeiro componente principal de uma observação, mais esse consumidor compra leite, produtos de mercearia e detergente/papel. Além disso, consumidores com o primeiro componente principal positivo compram menos de todas as categorias de produtos, o que me leva a crer que são, provavelmente, estabelecimentos menores. Com o mesmo tipo de raciocínio, podemos dizer que consumidores cujo segundo componente principal é negativo compram mais frescos, congelados e delicatssen.&lt;/p&gt;
+
+&lt;h1 id=&quot;clustering-data-&quot;&gt;Clustering Data &lt;a name=&quot;cluster&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Com os dados reduzidos, prossegui para algoritmos de clusterização, para tentar identificar segmentos de mercado. O método usado foi de &lt;a href=&quot;https://www.youtube.com/watch?v=REypj2sy_5U&quot;&gt;Expectativa-Maximização&lt;/a&gt;, que identifica &lt;em&gt;clusters&lt;/em&gt; de forma iterativa. O número ótimo de &lt;em&gt;clusters&lt;/em&gt; encontrado foi dois.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/GMM-biplot.png&quot; alt=&quot;GMM&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;How we cluster data.&lt;/p&gt;
+
+&lt;h1 id=&quot;reference-&quot;&gt;Reference &lt;a name=&quot;ref&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
+
+&lt;p&gt;Este trabalho é uma adaptação do terceiro projeto do &lt;a href=&quot;https://br.udacity.com/course/machine-learning-engineer-nanodegree--nd009/?gclid=Cj0KEQjw9r7JBRCj37PlltTskaMBEiQAKTzTfFcElVRXhgn0LpGDkFgyBmi0C71whULjIq3rpRANFusaAtlH8P8HAQ&quot;&gt;Nanodegree Engenheiro de Machine Learning da Udacity&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Você pode conferir a implementação completa do projeto &lt;a href=&quot;https://github.com/matheusfacure/Tutoriais-de-AM/tree/master/Exemplos&quot;&gt;no GitHub&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/06/2018-07-25-F5-Data-Science-Education/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-25-F5-Data-Science-Education/</guid>
         
         
       </item>
@@ -107,7 +248,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-07-24-Start-With-Why/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-24-Start-With-Why/</guid>
         
@@ -190,7 +331,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-07-10-product-manager/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-10-product-manager/</guid>
         
@@ -212,7 +353,7 @@ January 2018&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hD3N12aF3ms&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 </description>
-        <pubDate>Mon, 06 Aug 2018 16:45:17 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-05-05-Whack-A-Mole/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-05-05-Whack-A-Mole/</guid>
         
@@ -220,26 +361,118 @@ January 2018&lt;/p&gt;
       </item>
     
       <item>
-        <title>How To Add A Custom Domain To Github pages</title>
-        <description>&lt;h2 id=&quot;how-to-add-your-own-custome-domain-to-github-pages&quot;&gt;How To Add Your Own Custome Domain to Github pages&lt;/h2&gt;
+        <title>5 Steps To Adding A Custom Domain To Github Pages</title>
+        <description>&lt;h2 id=&quot;5-steps-to-adding-a-custom-domain-to-github-pages&quot;&gt;5 Steps To Adding A Custom Domain To Github Pages&lt;/h2&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#repos&quot;&gt;Setup in Github Repository&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#domain&quot;&gt;Configure on Google Domain&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#repos&quot;&gt;Setup in Github Repository&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#create&quot;&gt;Step 1: Creating a GitHub Repository&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cname&quot;&gt;Step 2: Adding CNAME file&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#settings&quot;&gt;Step 3: Verify Settings&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#domain&quot;&gt;Configuring the Google Domain&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#config&quot;&gt;Step 4: Configure Google Domains&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#done&quot;&gt;Step 5: We’re Done&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#conclusion&quot;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4 id=&quot;introduction-&quot;&gt;Introduction &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
 
 &lt;p&gt;This guide is to simplify the process of setting up a personal, customized website domain using Google Domains and GitHub Pages.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4 id=&quot;setup-in-github-repository-&quot;&gt;Setup in Github Repository &lt;a name=&quot;repos&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
 
-&lt;p&gt;Let’s start with your Github Repository. If you don’t have a repository started, head to this &lt;a href=&quot;https://github.com/new&quot;&gt;link&lt;/a&gt; to create one.&lt;/p&gt;
+&lt;h5 id=&quot;step-1-creating-a-github-repository-&quot;&gt;Step 1: Creating a GitHub Repository &lt;a name=&quot;create&quot;&gt;&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;Let’s start with your Github Repository. If you don’t have a repository started, head to this &lt;a href=&quot;https://github.com/new&quot;&gt;link&lt;/a&gt; to create with the name &lt;b&gt;&lt;u&gt;USERNAME&lt;/u&gt;.github.io&lt;/b&gt;. In the picture example, I’m using my personal github.io.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog-img/step1.png&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;step-2-adding-cname-file-&quot;&gt;Step 2: Adding CNAME file &lt;a name=&quot;cname&quot;&gt;&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;In your new repository, create a &lt;b&gt;CNAME&lt;/b&gt; file in the root directory and add the following to the file: &lt;b&gt;www.&lt;u&gt;YOUR-WEBSITE-NAME&lt;/u&gt;.com&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;By doing this, we add the domain name in the CNAME file to specify and redirect any request to &lt;b&gt;&lt;u&gt;USERNAME&lt;/u&gt;.github.io&lt;/b&gt;
+&lt;img src=&quot;/img/blog-img/step2.png&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;step-3-verify-settings&quot;&gt;Step 3: Verify Settings&lt;a name=&quot;settings&quot;&gt;&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;Now verify that &lt;b&gt;&lt;u&gt;USERNAME&lt;/u&gt;.github.io&lt;/b&gt; is directing to &lt;b&gt;www.&lt;u&gt;YOUR-WEBSITE-NAME&lt;/u&gt;.com&lt;/b&gt;.
+    - Head to repository’s the ‘Setting’ page. 
+    - Under ‘GitHub Pages’, your site should be published at “&lt;b&gt;www.&lt;u&gt;YOUR-WEBSITE-NAME&lt;/u&gt;.com&lt;/b&gt;.”
+&lt;img src=&quot;/img/blog-img/step3.png&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;configuring-the-google-domain-&quot;&gt;Configuring the Google Domain &lt;a name=&quot;domain&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;h5 id=&quot;step-4-configure-google-domains-&quot;&gt;Step 4: Configure Google Domains &lt;a name=&quot;config&quot;&gt;&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;Let’s get your custom domain from Google. Head to &lt;a href=&quot;https://domains.google.com/registrar&quot;&gt;‘My Domains’&lt;/a&gt; and select the DNS button to configure your DNS record.
+&lt;img src=&quot;/img/blog-img/step4.png&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Go to the ‘&lt;b&gt;Custom Resource Records&lt;/b&gt;’ section. You will be adding a following:&lt;/p&gt;
+
+&lt;table class=&quot;table table-striped table-bordered table-hover&quot; style=&quot;text-align: center;&quot;&gt;
+ &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Name&lt;/th&gt;
+      &lt;th&gt;Type&lt;/th&gt;
+      &lt;th&gt;TTL&lt;/th&gt;
+      &lt;th&gt;Data&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th&gt;@&lt;/th&gt;
+      &lt;td&gt;A&lt;/td&gt;
+      &lt;td&gt;1h&lt;/td&gt;
+      &lt;td&gt;192.30.252.153&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;/th&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;/td&gt;
+      &lt;td&gt;192.30.252.154&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th&gt;www&lt;/th&gt;
+      &lt;td&gt;CNAME&lt;/td&gt;
+      &lt;td&gt;1h&lt;/td&gt;
+      &lt;td&gt;&lt;b&gt;&lt;u&gt;USERNAME&lt;/u&gt;.github.io&lt;/b&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h5 id=&quot;step-5-were-done-&quot;&gt;Step 5: We’re Done &lt;a name=&quot;done&quot;&gt;&lt;/a&gt;&lt;/h5&gt;
+
+&lt;p&gt;It should look like this when you’re done.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/blog-img/step5.png&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;conclusion-&quot;&gt;Conclusion &lt;a name=&quot;conclusion&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;Now we're done! The DNS records can sometime take more than 24 hour to display your website, so you may not see it immediately. In the time being, adding new pages to your Github website should be accessible from your new domain. &lt;/p&gt;
+
+&lt;p&gt;To test the page, I would use to see if your DNS record has come through:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    www.USERNAME.github.io
+    www.YOUR-WEBSITE-NAME.com
+    www.USERNAME.github.io/about
+    www.YOUR-WEBSITE-NAME.com/about
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 </description>
         <pubDate>Mon, 06 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/Google-Domain-to-Github-pages/</link>
@@ -452,149 +685,6 @@ description: Side Project to study the Outreach.io platform using Outreach’s U
         <guid isPermaLink="true">http://localhost:4000/2018/08/01/Intro-to-PM/</guid>
         
         <category>Blog</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>F5 Data Science Education</title>
-        <description>&lt;h2 id=&quot;content&quot;&gt;Content&lt;/h2&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Introduction&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#explo&quot;&gt;Explore&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#prin&quot;&gt;Principles&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#cluster&quot;&gt;Clustering Data&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#ref&quot;&gt;Reference&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h1 id=&quot;introduction-&quot;&gt;Introduction &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Trying to find information using this &lt;a href=&quot;https://archive.ics.uci.edu/ml/datasets/Wholesale+customers&quot;&gt;dataset&lt;/a&gt;. We selected these catorgories: frescos (&lt;code class=&quot;highlighter-rouge&quot;&gt;Fresh&lt;/code&gt;), leite (&lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt;), mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;), congelado (&lt;code class=&quot;highlighter-rouge&quot;&gt;Frozen&lt;/code&gt;), detergente e papel (&lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;) e Delicatessen (&lt;code class=&quot;highlighter-rouge&quot;&gt;Delicatessen&lt;/code&gt;). O objetivo aqui será entender melhor a estrutura desses gastos, como eles se relacionam e se há algum padrão que pode ser explorado para otimizar as vendas.&lt;/p&gt;
-
-&lt;h1 id=&quot;explore-&quot;&gt;Explore &lt;a name=&quot;explo&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Em primeiro lugar, vamos explorar algumas estatísticas simples dos nossos dados, tais como média de gastos por produto, desvio padrão e quantis dos dados.&lt;/p&gt;
-
-&lt;table class=&quot;table table-striped table-bordered table-hover&quot; style=&quot;text-align: center;&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;Fresh&lt;/th&gt;
-      &lt;th&gt;Milk&lt;/th&gt;
-      &lt;th&gt;Grocery&lt;/th&gt;
-      &lt;th&gt;Frozen&lt;/th&gt;
-      &lt;th&gt;Detergents_Paper&lt;/th&gt;
-      &lt;th&gt;Delicatessen&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Média&lt;/th&gt;
-      &lt;td&gt;12000.29&lt;/td&gt;
-      &lt;td&gt;5796.26&lt;/td&gt;
-      &lt;td&gt;7951.27&lt;/td&gt;
-      &lt;td&gt;3071.93&lt;/td&gt;
-      &lt;td&gt;2881.49&lt;/td&gt;
-      &lt;td&gt;1524.87&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Desvio Padrão&lt;/th&gt;
-      &lt;td&gt;12647.33&lt;/td&gt;
-      &lt;td&gt;7380.38&lt;/td&gt;
-      &lt;td&gt;9503.16&lt;/td&gt;
-      &lt;td&gt;4854.67&lt;/td&gt;
-      &lt;td&gt;4767.85&lt;/td&gt;
-      &lt;td&gt;2820.10&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Mín.&lt;/th&gt;
-      &lt;td&gt;3.00&lt;/td&gt;
-      &lt;td&gt;55.00&lt;/td&gt;
-      &lt;td&gt;3.00&lt;/td&gt;
-      &lt;td&gt;25.00&lt;/td&gt;
-      &lt;td&gt;3.00&lt;/td&gt;
-      &lt;td&gt;3.00&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;25%&lt;/th&gt;
-      &lt;td&gt;3127.75&lt;/td&gt;
-      &lt;td&gt;1533.00&lt;/td&gt;
-      &lt;td&gt;2153.00&lt;/td&gt;
-      &lt;td&gt;742.25&lt;/td&gt;
-      &lt;td&gt;256.75&lt;/td&gt;
-      &lt;td&gt;408.25&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;50%&lt;/th&gt;
-      &lt;td&gt;8504.00&lt;/td&gt;
-      &lt;td&gt;3627.00&lt;/td&gt;
-      &lt;td&gt;4755.50&lt;/td&gt;
-      &lt;td&gt;1526.00&lt;/td&gt;
-      &lt;td&gt;816.50&lt;/td&gt;
-      &lt;td&gt;965.50&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;75%&lt;/th&gt;
-      &lt;td&gt;16933.75&lt;/td&gt;
-      &lt;td&gt;7190.25&lt;/td&gt;
-      &lt;td&gt;10655.75&lt;/td&gt;
-      &lt;td&gt;3554.25&lt;/td&gt;
-      &lt;td&gt;3922.00&lt;/td&gt;
-      &lt;td&gt;1820.25&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Máx.&lt;/th&gt;
-      &lt;td&gt;112151.00&lt;/td&gt;
-      &lt;td&gt;73498.00&lt;/td&gt;
-      &lt;td&gt;92780.00&lt;/td&gt;
-      &lt;td&gt;60869.00&lt;/td&gt;
-      &lt;td&gt;40827.00&lt;/td&gt;
-      &lt;td&gt;47943.00&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Podemos ver que, em média, a maioria dos gastos dos consumidores é com frescos. Em seguida, gasta-se mais com mercearia, leite, congelados, detergente/papel e delicatssen, nessa ordem. Além disso, os gastos com delicatssen são bem menores do que os com outros produtos.&lt;/p&gt;
-
-&lt;p&gt;Usando um &lt;a href=&quot;https://matheusfacure.github.io/2017/02/15/MQO-formula-analitica/&quot;&gt;modelo de previsão linear simples&lt;/a&gt;, notei que 70% dos gastos com mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;) pode ser explicado pelos gastos nos outros produtos. Isso torna a variável de mercearia parcialmente redundante nos dados. Se tivéssemos muitas variáveis, por eficiência computacional, seria uma boa retirá-la dos dados. Como só temos 6 variáveis, vamos mantê-la. Em seguida, apliquei o logaritmo natural em todas as variáveis. Isso faz com que a distribuição delas fique melhor comportada, isto é, mais próxima de uma gaussiana (curva de sino). Após essa etapa de processamento, coloquei as distribuições e as correlações das variáveis num gráfico.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/relacoes-gastos.png&quot; alt=&quot;relacoes-gastos&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Aparentemente, há uma elevada correlação entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;; há também alguma correlação entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e entre &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergents_Paper&lt;/code&gt;. Isso já nos dá alguma informação sobre o comportamento dos consumidores: quando eles compram produtos de mercearia (&lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;), tendem também a comprar produtos nas categorias papel/detergente e leite. Mais ainda, essas correlações confirmam o que havíamos visto antes, sobre gastos com mercearia serem um tanto redundantes.&lt;/p&gt;
-
-&lt;h1 id=&quot;principles-&quot;&gt;Principles &lt;a name=&quot;Prin&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;A análise de componentes principais é um método de extração de características que busca achar os (tãn tãn tãn tãn!!!) componentes principais dos dados. Como um exemplo super simples, digamos que os consumidores do atacado em questão sejam apenas mães ou pais de crianças pequenas. Nos dados, só temos as quantidades gastas desses consumidores, mas podemos imaginar que esses gastos são manifestações de características que não podemos observar, como estilo de vida. O que podemos fazer então é combinar as nossas variáveis observadas (gastos) para criar variáveis explicativas que melhor condensam os padrões de consumo. Por exemplo, se notarmos que gastos com fraldas e leite em pó variam junto, podemos combinar essas duas variáveis em um único componente, que captura certa essência do fator não observável hábito de consumo de uma família com crianças pequenas. Com isso, reduzimos o número de variáveis nos dados, mas mantemos a informação presente neles: em vez de precisarmos acompanhar duas variáveis de gastos, só precisaremos acompanhar a variação desse novo componente criado. Intuitivamente, podemos pensar nesse componente como representando um fator latente de variação nos dados observáveis. Talvez esse fator latente seja estrutura familiar, mas, de qualquer forma o importante é que ele ajude a explicar variações de consumo.&lt;/p&gt;
-
-&lt;p&gt;Análise de Componentes Principais (ACP) faz justamente isso. Essa técnica maximiza a variação dos dados nos componentes extraídos, ao mesmo tempo que minimiza o erro de reconstrução, isto é, minimiza a perda de informação que se tem ao manter apenas os componentes principais mais importantes, descartando-se os demais. Usando ACP, substituímos nossas 6 variáveis observáveis em seis componentes principais, sendo que os primeiros componentes explicam a maioria da variação nos dados originais, isto é, no consumo. Podemos inclusive ver como as variáveis originais são utilizadas para criar esses componentes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-composicao.png&quot; alt=&quot;PCA1&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Note como 71,9% (0,4424 + 0,2766) da variação nos dados pode ser explicada pelos dois primeiros componentes principais e como os quatro primeiros explicam 93,14% dessa variância. O primeiro componente principal é composto majoritariamente por &lt;code class=&quot;highlighter-rouge&quot;&gt;Detergent_Paper&lt;/code&gt; e um pouco por &lt;code class=&quot;highlighter-rouge&quot;&gt;Milk&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Grocery&lt;/code&gt;. A partir deste componente principal, podemos ver que os clientes que gastam mais com leite tendem a gastar mais em mercearia e em detergente/papel. Também mostra que os clientes diferem principalmente pela diferença nos gastos com esses três produtos. O segundo componente principal, por sua vez, é composto principalmente por &lt;code class=&quot;highlighter-rouge&quot;&gt;Fresh&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Frozen&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;Delicatssen&lt;/code&gt;. Isso mostra que a segunda maior fonte de diferença entre os clientes vem de seus gastos com produtos frescos, congelados e delicatssen. A partir desse componente principal, podemos inferir que os clientes que gastam mais em frescos também tendem a gastar mais em congelados e delicatssen. O mesmo raciocínio pode ser feito para os outros componentes extraídos. Antes de prosseguir, descartei todos os componentes principais menos os dois primeiros. Isso resulta em certa perda de informação, mas nada grave, já que eles sozinhos preservam quase 72% da informação original. Como só estamos com dois componentes principais, podemos colocá-los em um gráfico e visualizar como as variáveis originais de consumo estão relacionadas com os dois primeiros componentes principais.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-biplot.png&quot; alt=&quot;PCA2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Claramente, quanto mais negativo for o primeiro componente principal de uma observação, mais esse consumidor compra leite, produtos de mercearia e detergente/papel. Além disso, consumidores com o primeiro componente principal positivo compram menos de todas as categorias de produtos, o que me leva a crer que são, provavelmente, estabelecimentos menores. Com o mesmo tipo de raciocínio, podemos dizer que consumidores cujo segundo componente principal é negativo compram mais frescos, congelados e delicatssen.&lt;/p&gt;
-
-&lt;h1 id=&quot;clustering-data-&quot;&gt;Clustering Data &lt;a name=&quot;cluster&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Com os dados reduzidos, prossegui para algoritmos de clusterização, para tentar identificar segmentos de mercado. O método usado foi de &lt;a href=&quot;https://www.youtube.com/watch?v=REypj2sy_5U&quot;&gt;Expectativa-Maximização&lt;/a&gt;, que identifica &lt;em&gt;clusters&lt;/em&gt; de forma iterativa. O número ótimo de &lt;em&gt;clusters&lt;/em&gt; encontrado foi dois.&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/GMM-biplot.png&quot; alt=&quot;GMM&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;How we cluster data.&lt;/p&gt;
-
-&lt;h1 id=&quot;reference-&quot;&gt;Reference &lt;a name=&quot;ref&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
-
-&lt;p&gt;Este trabalho é uma adaptação do terceiro projeto do &lt;a href=&quot;https://br.udacity.com/course/machine-learning-engineer-nanodegree--nd009/?gclid=Cj0KEQjw9r7JBRCj37PlltTskaMBEiQAKTzTfFcElVRXhgn0LpGDkFgyBmi0C71whULjIq3rpRANFusaAtlH8P8HAQ&quot;&gt;Nanodegree Engenheiro de Machine Learning da Udacity&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Você pode conferir a implementação completa do projeto &lt;a href=&quot;https://github.com/matheusfacure/Tutoriais-de-AM/tree/master/Exemplos&quot;&gt;no GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 25 Jul 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2018/07/25/F5-Data-Science-Education/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/07/25/F5-Data-Science-Education/</guid>
-        
-        <category>Post</category>
         
         
       </item>
