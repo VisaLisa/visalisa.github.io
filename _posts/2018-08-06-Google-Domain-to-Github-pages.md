@@ -12,7 +12,6 @@ comments: true
 header-img: "img/dark-ann.jpg"
 ---
 ## 5 Steps To Adding A Custom Domain To Github Pages 
-
 <br>
 ### Content
 
@@ -50,8 +49,8 @@ By doing this, we add the domain name in the CNAME file to specify and redirect 
 ##### Step 3: Verify Settings<a name="settings"></a>
 
 Now verify that <b><u>USERNAME</u>.github.io</b> is directing to <b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>.
-    - Head to repository's the 'Setting' page. 
-    - Under 'GitHub Pages', your site should be published at "<b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>."
+
+Head to repository's the 'Setting' page > Under 'GitHub Pages', your site should be published at "<b>www.<u>YOUR-WEBSITE-NAME</u>.com</b>."
 <img src="/img/blog-img/step3.png" width="718px">    
 
 <br>    

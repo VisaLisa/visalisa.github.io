@@ -5,8 +5,8 @@
     <description>Product Manager</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
-    <lastBuildDate>Mon, 06 Aug 2018 18:06:51 -0700</lastBuildDate>
+    <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
+    <lastBuildDate>Mon, 06 Aug 2018 18:12:07 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -24,7 +24,7 @@
 &lt;p&gt;During this hunting time, life can be a blur. “What day is today?” “What’s on the to-do list?” “What’s can I do?” are just some of the questions you might be asking yourself.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-08-01-The-Job-Hunt/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-08-01-The-Job-Hunt/</guid>
         
@@ -165,7 +165,7 @@
 
 &lt;p&gt;Você pode conferir a implementação completa do projeto &lt;a href=&quot;https://github.com/matheusfacure/Tutoriais-de-AM/tree/master/Exemplos&quot;&gt;no GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-07-25-F5-Data-Science-Education/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-25-F5-Data-Science-Education/</guid>
         
@@ -248,7 +248,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-07-24-Start-With-Why/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-24-Start-With-Why/</guid>
         
@@ -331,7 +331,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-07-10-product-manager/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-10-product-manager/</guid>
         
@@ -353,7 +353,7 @@ January 2018&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hD3N12aF3ms&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:06:51 -0700</pubDate>
+        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/2018-05-05-Whack-A-Mole/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-05-05-Whack-A-Mole/</guid>
         
@@ -363,7 +363,6 @@ January 2018&lt;/p&gt;
       <item>
         <title>5 Steps To Adding A Custom Domain To Github Pages</title>
         <description>&lt;h2 id=&quot;5-steps-to-adding-a-custom-domain-to-github-pages&quot;&gt;5 Steps To Adding A Custom Domain To Github Pages&lt;/h2&gt;
-
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
 
@@ -408,9 +407,9 @@ January 2018&lt;/p&gt;
 
 &lt;h5 id=&quot;step-3-verify-settings&quot;&gt;Step 3: Verify Settings&lt;a name=&quot;settings&quot;&gt;&lt;/a&gt;&lt;/h5&gt;
 
-&lt;p&gt;Now verify that &lt;b&gt;&lt;u&gt;USERNAME&lt;/u&gt;.github.io&lt;/b&gt; is directing to &lt;b&gt;www.&lt;u&gt;YOUR-WEBSITE-NAME&lt;/u&gt;.com&lt;/b&gt;.
-    - Head to repository’s the ‘Setting’ page. 
-    - Under ‘GitHub Pages’, your site should be published at “&lt;b&gt;www.&lt;u&gt;YOUR-WEBSITE-NAME&lt;/u&gt;.com&lt;/b&gt;.”
+&lt;p&gt;Now verify that &lt;b&gt;&lt;u&gt;USERNAME&lt;/u&gt;.github.io&lt;/b&gt; is directing to &lt;b&gt;www.&lt;u&gt;YOUR-WEBSITE-NAME&lt;/u&gt;.com&lt;/b&gt;.&lt;/p&gt;
+
+&lt;p&gt;Head to repository’s the ‘Setting’ page &amp;gt; Under ‘GitHub Pages’, your site should be published at “&lt;b&gt;www.&lt;u&gt;YOUR-WEBSITE-NAME&lt;/u&gt;.com&lt;/b&gt;.”
 &lt;img src=&quot;/img/blog-img/step3.png&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
