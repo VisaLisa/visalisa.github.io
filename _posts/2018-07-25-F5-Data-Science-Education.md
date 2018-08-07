@@ -1,7 +1,7 @@
 ---
 layout: portfoliopost
 comments: true
-title:Case Study: F5 Networks
+title:Case Study F5 Networks
 subtitle: "Making critical decisions with data"
 date: 2018-07-25
 tags: [Post]
