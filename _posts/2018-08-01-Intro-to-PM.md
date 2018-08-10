@@ -13,14 +13,17 @@ header-img: "img/dark-ann.jpg"
 ---
 ## My Process to Product Management
 
+<br>
 #### My Approach - begins and ends with the user
 
 Quality products are made with the user in mind. Asking thoughtful questions about the user journey and understanding their behaviors, pains points, and preferences help bring me closer to a tailored solution.
 
+<br>
 #### Design Process - no two processes are the same
-
+s
 Depending on the project/client's objectives, I will put more emphasis on one step or another. The important thing is to learn from actual users, collaborate across teams, and constantly sketch & test possible solutions. 
 
+<br>
 ### The simple 6 step approach to product management
 
 1. Define the problem to be solved.

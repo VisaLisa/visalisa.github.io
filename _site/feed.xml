@@ -5,8 +5,8 @@
     <description>Product Manager</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
-    <lastBuildDate>Mon, 06 Aug 2018 18:12:07 -0700</lastBuildDate>
+    <pubDate>Wed, 08 Aug 2018 17:05:55 -0700</pubDate>
+    <lastBuildDate>Wed, 08 Aug 2018 17:05:55 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -24,9 +24,9 @@
 &lt;p&gt;During this hunting time, life can be a blur. “What day is today?” “What’s on the to-do list?” “What’s can I do?” are just some of the questions you might be asking yourself.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/06/2018-08-01-The-Job-Hunt/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-08-01-The-Job-Hunt/</guid>
+        <pubDate>Wed, 08 Aug 2018 17:05:55 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/08/2018-08-01-The-Job-Hunt/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/08/2018-08-01-The-Job-Hunt/</guid>
         
         
       </item>
@@ -165,9 +165,9 @@
 
 &lt;p&gt;Você pode conferir a implementação completa do projeto &lt;a href=&quot;https://github.com/matheusfacure/Tutoriais-de-AM/tree/master/Exemplos&quot;&gt;no GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/06/2018-07-25-F5-Data-Science-Education/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-25-F5-Data-Science-Education/</guid>
+        <pubDate>Wed, 08 Aug 2018 17:05:55 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/08/2018-07-25-F5-Data-Science-Education/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/08/2018-07-25-F5-Data-Science-Education/</guid>
         
         
       </item>
@@ -248,9 +248,9 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/06/2018-07-24-Start-With-Why/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-24-Start-With-Why/</guid>
+        <pubDate>Wed, 08 Aug 2018 17:05:55 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/08/2018-07-24-Start-With-Why/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/08/2018-07-24-Start-With-Why/</guid>
         
         
       </item>
@@ -331,9 +331,9 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/06/2018-07-10-product-manager/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-07-10-product-manager/</guid>
+        <pubDate>Wed, 08 Aug 2018 17:05:55 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/08/2018-07-10-product-manager/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/08/2018-07-10-product-manager/</guid>
         
         
       </item>
@@ -353,9 +353,51 @@ January 2018&lt;/p&gt;
 &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/hD3N12aF3ms&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
 
 </description>
-        <pubDate>Mon, 06 Aug 2018 18:12:07 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/06/2018-05-05-Whack-A-Mole/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/06/2018-05-05-Whack-A-Mole/</guid>
+        <pubDate>Wed, 08 Aug 2018 17:05:55 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/08/2018-05-05-Whack-A-Mole/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/08/2018-05-05-Whack-A-Mole/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>VR &amp; AR For Everyone</title>
+        <description>&lt;h2 id=&quot;vr--ar-for-everyone&quot;&gt;VR &amp;amp; AR for Everyone&lt;/h2&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#what&quot;&gt;What is VR/AR?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#difference&quot;&gt;What’s the difference?&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;intro-&quot;&gt;Intro &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;From when we were born to now, we all have relied on senses to simply live in the world. Senses, such as taste, touch, smell, sight, and hearing are the five senses we most often use to build our experince of this reality. Everything that we know about our perception comes by the way of our sense.&lt;/p&gt;
+
+&lt;p&gt;Virtual reality (VR) takes what we know in our world and transport us to the digital world. In the digtial world, developers and designers are creating everything from game experiences to healthcare training, which will one day be seen every where.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-vrar-&quot;&gt;What is VR/AR? &lt;a name=&quot;what&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;(&lt;code class=&quot;highlighter-rouge&quot;&gt;Virtual Reality&lt;/code&gt;) is simulating an digital environment through the use of computer technology. Until you actually get into a headset, the textbook meaning of virtual reality might be the most dry sentence you might ever hear. Virtual reality is becoming a growing industry because of it’s limitless ability to create almost anything. It has added a new medium for people to explore their senses, such as vision, hearing, touch, and even, smell.&lt;/p&gt;
+
+&lt;p&gt;(&lt;code class=&quot;highlighter-rouge&quot;&gt;Augmented Reality&lt;/code&gt;) is superimposing 3D graphics over the user’s view of the real world. Augmented reality uses more sensors to determine the hardware’s position and orientation of the camera.&lt;/p&gt;
+
+&lt;h4 id=&quot;whats-the-difference-&quot;&gt;What’s the difference? &lt;a name=&quot;difference&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
+</description>
+        <pubDate>Mon, 06 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/06/VR-for-Everyone/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/06/VR-for-Everyone/</guid>
+        
+        <category>Blog</category>
+        
+        <category>VR</category>
+        
+        <category>Virtual Reality</category>
+        
+        <category>AR</category>
+        
+        <category>Augmented Reality</category>
         
         
       </item>
@@ -659,14 +701,17 @@ description: Side Project to study the Outreach.io platform using Outreach’s U
         <title>My Process to Product Management</title>
         <description>&lt;h2 id=&quot;my-process-to-product-management&quot;&gt;My Process to Product Management&lt;/h2&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4 id=&quot;my-approach---begins-and-ends-with-the-user&quot;&gt;My Approach - begins and ends with the user&lt;/h4&gt;
 
 &lt;p&gt;Quality products are made with the user in mind. Asking thoughtful questions about the user journey and understanding their behaviors, pains points, and preferences help bring me closer to a tailored solution.&lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h4 id=&quot;design-process---no-two-processes-are-the-same&quot;&gt;Design Process - no two processes are the same&lt;/h4&gt;
+&lt;p&gt;s
+Depending on the project/client’s objectives, I will put more emphasis on one step or another. The important thing is to learn from actual users, collaborate across teams, and constantly sketch &amp;amp; test possible solutions.&lt;/p&gt;
 
-&lt;p&gt;Depending on the project/client’s objectives, I will put more emphasis on one step or another. The important thing is to learn from actual users, collaborate across teams, and constantly sketch &amp;amp; test possible solutions.&lt;/p&gt;
-
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;h3 id=&quot;the-simple-6-step-approach-to-product-management&quot;&gt;The simple 6 step approach to product management&lt;/h3&gt;
 
 &lt;ol&gt;
@@ -684,161 +729,6 @@ description: Side Project to study the Outreach.io platform using Outreach’s U
         <guid isPermaLink="true">http://localhost:4000/2018/08/01/Intro-to-PM/</guid>
         
         <category>Blog</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Portfoliotemplate</title>
-        <description>
-&lt;!---
-layout: portfoliopost
-comments: true
-title: Title name
-subtitle: &quot;subtitle name&quot;
-date: 2018-07-25
-tags: [Post]
-author: &quot;Lisa Jiamsirioungkul&quot;
-header-img: /img/fundo_main.png
-modal-id: ####
-thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
-description: Projects description......... 
----
-
-## Content
-1. [Introduction](#intro) 
-2. [Explore](#explo)
-3. [Principles](#prin)
-4. [Clustering Data](#cluster)
-5. [Reference](#ref)
-
-# Introduction &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;
-
-Trying to find information using this [dataset](https://archive.ics.uci.edu/ml/datasets/Wholesale+customers). We selected these catorgories: frescos (`Fresh`), leite (`Milk`), mercearia (`Grocery`), congelado (`Frozen`), detergente e papel (`Detergents_Paper`) e Delicatessen (`Delicatessen`). O objetivo aqui será entender melhor a estrutura desses gastos, como eles se relacionam e se há algum padrão que pode ser explorado para otimizar as vendas.
-
-# Explore &lt;a name=&quot;explo&quot;&gt;&lt;/a&gt;
-
-Em primeiro lugar, vamos explorar algumas estatísticas simples dos nossos dados, tais como média de gastos por produto, desvio padrão e quantis dos dados.
-
-&lt;table class=&quot;table table-striped table-bordered table-hover&quot; style=&quot;text-align: center;&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;&lt;/th&gt;
-      &lt;th&gt;Fresh&lt;/th&gt;
-      &lt;th&gt;Milk&lt;/th&gt;
-      &lt;th&gt;Grocery&lt;/th&gt;
-      &lt;th&gt;Frozen&lt;/th&gt;
-      &lt;th&gt;Detergents_Paper&lt;/th&gt;
-      &lt;th&gt;Delicatessen&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Média&lt;/th&gt;
-      &lt;td&gt;12000.29&lt;/td&gt;
-      &lt;td&gt;5796.26&lt;/td&gt;
-      &lt;td&gt;7951.27&lt;/td&gt;
-      &lt;td&gt;3071.93&lt;/td&gt;
-      &lt;td&gt;2881.49&lt;/td&gt;
-      &lt;td&gt;1524.87&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Desvio Padrão&lt;/th&gt;
-      &lt;td&gt;12647.33&lt;/td&gt;
-      &lt;td&gt;7380.38&lt;/td&gt;
-      &lt;td&gt;9503.16&lt;/td&gt;
-      &lt;td&gt;4854.67&lt;/td&gt;
-      &lt;td&gt;4767.85&lt;/td&gt;
-      &lt;td&gt;2820.10&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Mín.&lt;/th&gt;
-      &lt;td&gt;3.00&lt;/td&gt;
-      &lt;td&gt;55.00&lt;/td&gt;
-      &lt;td&gt;3.00&lt;/td&gt;
-      &lt;td&gt;25.00&lt;/td&gt;
-      &lt;td&gt;3.00&lt;/td&gt;
-      &lt;td&gt;3.00&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;25%&lt;/th&gt;
-      &lt;td&gt;3127.75&lt;/td&gt;
-      &lt;td&gt;1533.00&lt;/td&gt;
-      &lt;td&gt;2153.00&lt;/td&gt;
-      &lt;td&gt;742.25&lt;/td&gt;
-      &lt;td&gt;256.75&lt;/td&gt;
-      &lt;td&gt;408.25&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;50%&lt;/th&gt;
-      &lt;td&gt;8504.00&lt;/td&gt;
-      &lt;td&gt;3627.00&lt;/td&gt;
-      &lt;td&gt;4755.50&lt;/td&gt;
-      &lt;td&gt;1526.00&lt;/td&gt;
-      &lt;td&gt;816.50&lt;/td&gt;
-      &lt;td&gt;965.50&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;75%&lt;/th&gt;
-      &lt;td&gt;16933.75&lt;/td&gt;
-      &lt;td&gt;7190.25&lt;/td&gt;
-      &lt;td&gt;10655.75&lt;/td&gt;
-      &lt;td&gt;3554.25&lt;/td&gt;
-      &lt;td&gt;3922.00&lt;/td&gt;
-      &lt;td&gt;1820.25&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Máx.&lt;/th&gt;
-      &lt;td&gt;112151.00&lt;/td&gt;
-      &lt;td&gt;73498.00&lt;/td&gt;
-      &lt;td&gt;92780.00&lt;/td&gt;
-      &lt;td&gt;60869.00&lt;/td&gt;
-      &lt;td&gt;40827.00&lt;/td&gt;
-      &lt;td&gt;47943.00&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-Podemos ver que, em média, a maioria dos gastos dos consumidores é com frescos. Em seguida, gasta-se mais com mercearia, leite, congelados, detergente/papel e delicatssen, nessa ordem. Além disso, os gastos com delicatssen são bem menores do que os com outros produtos.
-
-Usando um [modelo de previsão linear simples](https://matheusfacure.github.io/2017/02/15/MQO-formula-analitica/), notei que 70% dos gastos com mercearia (`Grocery`) pode ser explicado pelos gastos nos outros produtos. Isso torna a variável de mercearia parcialmente redundante nos dados. Se tivéssemos muitas variáveis, por eficiência computacional, seria uma boa retirá-la dos dados. Como só temos 6 variáveis, vamos mantê-la. Em seguida, apliquei o logaritmo natural em todas as variáveis. Isso faz com que a distribuição delas fique melhor comportada, isto é, mais próxima de uma gaussiana (curva de sino). Após essa etapa de processamento, coloquei as distribuições e as correlações das variáveis num gráfico.
-
-&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/relacoes-gastos.png&quot; alt=&quot;relacoes-gastos&quot; /&gt;
-
-Aparentemente, há uma elevada correlação entre `Grocery` e `Detergents_Paper`; há também alguma correlação entre `Grocery` e `Milk` e entre `Milk` e `Detergents_Paper`. Isso já nos dá alguma informação sobre o comportamento dos consumidores: quando eles compram produtos de mercearia (`Grocery`), tendem também a comprar produtos nas categorias papel/detergente e leite. Mais ainda, essas correlações confirmam o que havíamos visto antes, sobre gastos com mercearia serem um tanto redundantes.
-
-# Principles &lt;a name=&quot;Prin&quot;&gt;&lt;/a&gt;
-
-A análise de componentes principais é um método de extração de características que busca achar os (tãn tãn tãn tãn!!!) componentes principais dos dados. Como um exemplo super simples, digamos que os consumidores do atacado em questão sejam apenas mães ou pais de crianças pequenas. Nos dados, só temos as quantidades gastas desses consumidores, mas podemos imaginar que esses gastos são manifestações de características que não podemos observar, como estilo de vida. O que podemos fazer então é combinar as nossas variáveis observadas (gastos) para criar variáveis explicativas que melhor condensam os padrões de consumo. Por exemplo, se notarmos que gastos com fraldas e leite em pó variam junto, podemos combinar essas duas variáveis em um único componente, que captura certa essência do fator não observável hábito de consumo de uma família com crianças pequenas. Com isso, reduzimos o número de variáveis nos dados, mas mantemos a informação presente neles: em vez de precisarmos acompanhar duas variáveis de gastos, só precisaremos acompanhar a variação desse novo componente criado. Intuitivamente, podemos pensar nesse componente como representando um fator latente de variação nos dados observáveis. Talvez esse fator latente seja estrutura familiar, mas, de qualquer forma o importante é que ele ajude a explicar variações de consumo. 
-
-Análise de Componentes Principais (ACP) faz justamente isso. Essa técnica maximiza a variação dos dados nos componentes extraídos, ao mesmo tempo que minimiza o erro de reconstrução, isto é, minimiza a perda de informação que se tem ao manter apenas os componentes principais mais importantes, descartando-se os demais. Usando ACP, substituímos nossas 6 variáveis observáveis em seis componentes principais, sendo que os primeiros componentes explicam a maioria da variação nos dados originais, isto é, no consumo. Podemos inclusive ver como as variáveis originais são utilizadas para criar esses componentes.
-
-&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-composicao.png&quot; alt=&quot;PCA1&quot; /&gt;
-
-Note como 71,9% (0,4424 + 0,2766) da variação nos dados pode ser explicada pelos dois primeiros componentes principais e como os quatro primeiros explicam 93,14% dessa variância. O primeiro componente principal é composto majoritariamente por `Detergent_Paper` e um pouco por `Milk` e `Grocery`. A partir deste componente principal, podemos ver que os clientes que gastam mais com leite tendem a gastar mais em mercearia e em detergente/papel. Também mostra que os clientes diferem principalmente pela diferença nos gastos com esses três produtos. O segundo componente principal, por sua vez, é composto principalmente por `Fresh`, `Frozen` e `Delicatssen`. Isso mostra que a segunda maior fonte de diferença entre os clientes vem de seus gastos com produtos frescos, congelados e delicatssen. A partir desse componente principal, podemos inferir que os clientes que gastam mais em frescos também tendem a gastar mais em congelados e delicatssen. O mesmo raciocínio pode ser feito para os outros componentes extraídos. Antes de prosseguir, descartei todos os componentes principais menos os dois primeiros. Isso resulta em certa perda de informação, mas nada grave, já que eles sozinhos preservam quase 72% da informação original. Como só estamos com dois componentes principais, podemos colocá-los em um gráfico e visualizar como as variáveis originais de consumo estão relacionadas com os dois primeiros componentes principais.
-
-&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/PCA-biplot.png&quot; alt=&quot;PCA2&quot; /&gt;
-
-Claramente, quanto mais negativo for o primeiro componente principal de uma observação, mais esse consumidor compra leite, produtos de mercearia e detergente/papel. Além disso, consumidores com o primeiro componente principal positivo compram menos de todas as categorias de produtos, o que me leva a crer que são, provavelmente, estabelecimentos menores. Com o mesmo tipo de raciocínio, podemos dizer que consumidores cujo segundo componente principal é negativo compram mais frescos, congelados e delicatssen.
-
-# Clustering Data &lt;a name=&quot;cluster&quot;&gt;&lt;/a&gt;
-
-Com os dados reduzidos, prossegui para algoritmos de clusterização, para tentar identificar segmentos de mercado. O método usado foi de [Expectativa-Maximização](https://www.youtube.com/watch?v=REypj2sy_5U), que identifica *clusters* de forma iterativa. O número ótimo de *clusters* encontrado foi dois. 
-
-&lt;img class=&quot;img-responsive center-block thumbnail&quot; src=&quot;/img/portfolio/un-ml-client/GMM-biplot.png&quot; alt=&quot;GMM&quot; /&gt;
-
-How we cluster data.
-
-# Reference &lt;a name=&quot;ref&quot;&gt;&lt;/a&gt;
-
-Este trabalho é uma adaptação do terceiro projeto do [Nanodegree Engenheiro de Machine Learning da Udacity](https://br.udacity.com/course/machine-learning-engineer-nanodegree--nd009/?gclid=Cj0KEQjw9r7JBRCj37PlltTskaMBEiQAKTzTfFcElVRXhgn0LpGDkFgyBmi0C71whULjIq3rpRANFusaAtlH8P8HAQ).
-
-Você pode conferir a implementação completa do projeto [no GitHub](https://github.com/matheusfacure/Tutoriais-de-AM/tree/master/Exemplos).
---&gt;
-</description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018/01/01/portfoliotemplate/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/01/portfoliotemplate/</guid>
         
         
       </item>
