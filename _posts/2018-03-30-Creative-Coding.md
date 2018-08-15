@@ -7,7 +7,7 @@ date: 2017-03-30
 tags: [Post]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/portfolio/creative-coding/home_hero_no_banner.png
-modal-id: 5
+modal-id: 3
 thumbnail: /img/portfolio/creative-coding/cover.png
 description: Enrolling kids to code and the marketing process
 ---

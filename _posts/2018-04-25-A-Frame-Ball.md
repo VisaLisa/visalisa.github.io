@@ -7,7 +7,7 @@ date: 2018-04-25
 tags: [Post]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
-modal-id: 6
+modal-id: 4
 thumbnail: /img/portfolio/a-frame/learning-aframecover.png
 description: Ball & Plane was created though using A-Frame HTML & JavaScript.  
 ---

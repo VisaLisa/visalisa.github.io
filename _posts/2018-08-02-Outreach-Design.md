@@ -1,12 +1,13 @@
+---
 layout: portfoliopost
 comments: true
-title: Redesign a company's learning site
-subtitle: "The roadmap to engage employees through online learning offers."
+title:Outreach.io Univesity Redesign
+subtitle: "Engage employees through online learning"
 date: 2018-07-25
 tags: [Post]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
-modal-id: ####
+modal-id: 7
 thumbnail: /img/portfolio/un-ml-client/GMM-biplot.png
 description: Side Project to study the Outreach.io platform using Outreach's University site.
 ---

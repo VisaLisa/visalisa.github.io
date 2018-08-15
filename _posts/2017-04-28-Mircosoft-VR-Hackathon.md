@@ -2,12 +2,12 @@
 layout: portfoliopost
 comments: true
 title: Microsoft AR/VR Hackathon
-subtitle: "Playing with emoji pasting in a 360-photo"
+subtitle: "Playing with emojis in a 360-photo"
 date: 2017-04-28
 tags: [Post]
 author: "Lisa Jiamsirioungkul"
 header-img: /img/fundo_main.png
-modal-id: 3
+modal-id: 2
 thumbnail: /img/portfolio/vr-hackathon/coverimg.png
 description: Drag & Drop was created to play with emoji within a 360 space. 
 ---
