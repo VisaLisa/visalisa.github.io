@@ -1,8 +1,8 @@
 ---
 layout: portfoliopost
 comments: true
-title:Outreach.io Univesity Redesign
-subtitle: "Engage employees through online learning"
+title:Outreach.io Univesity
+subtitle: "Engage employees in elearning"
 date: 2018-07-25
 tags: [Post]
 author: "Lisa Jiamsirioungkul"

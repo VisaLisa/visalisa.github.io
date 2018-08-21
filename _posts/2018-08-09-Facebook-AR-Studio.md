@@ -30,3 +30,6 @@ Let's get started by downloading the following tools:
 
 # Resources <a name="resources"></a>
 [Using the AR Studio Player App](https://developers.facebook.com/docs/ar-studio/tutorials/ar-studio-player)
+
+Example of AR Studio
+<img src="/img/portfolio/AR/AR-studio.png" width="718px">
