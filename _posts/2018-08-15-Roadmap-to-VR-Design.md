@@ -21,4 +21,4 @@ To get to great design, we will need to keep in mind why we build - our users. O
 
 ### Presentation
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTltTThXX8gACpHQnLLz4GBwkAQ7pD1K1MFx3jOEZBvedqfv4c3T79C5kSIJFIZT6XkPD42TcVp59ej/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTltTThXX8gACpHQnLLz4GBwkAQ7pD1K1MFx3jOEZBvedqfv4c3T79C5kSIJFIZT6XkPD42TcVp59ej/embed?start=false&loop=false&delayms=3000" frameborder="0" width="718" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
