@@ -2,7 +2,7 @@
 layout: blogpost
 comments: true
 title: A Hacker's Guide to Reading
-subtitle: "Learn how to read 106 books in a year & book reccomendation"
+subtitle: "Learn how to read 106 books in a year & book recomendation"
 lang: pt
 date: 2018-08-02
 true-dt: 2018-08-02
@@ -36,7 +36,6 @@ I wanted to learn as much as possible about ('building great teams') and ('profe
 #### Lisa's Book Recommendation
 
 I made of list of highly recommended reading selection that I made over the years. The books range in a variety of genres from business to cooking. I added links to purchase the book on Amazon (not sponsored), but I would highly encourage checking if your local library has any of them.
-
 
 #### Business <a name="Business"></a>
 
