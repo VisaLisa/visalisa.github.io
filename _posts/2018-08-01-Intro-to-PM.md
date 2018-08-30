@@ -2,7 +2,7 @@
 layout: blogpost
 comments: true
 title: My Process to Product Management
-subtitle: "The simple layout to making a quality product,"
+subtitle: "The simple layout to making a quality product"
 lang: pt
 date: 2018-08-01
 true-dt: 2018-08-01

@@ -28,7 +28,7 @@ Led brand strategy; authored content and tracked interaction with web analytics 
 
 #### Asking Questions 
 
-We were trying to solve a few problems within our parent community. The first is that customers were asking duplicate questions when they could be getting an answer immediately. We also noticed that a lot of questions weren’t being formatted correctly, and adequate details were not being added.
+I loved watching my team build new relationship and the brand interaction with local communities and businesses. We were always trying to solve problems by asking questions to how we can improve. Within our parent community, we notice there was a heighten concern with kids safety. To address this, we made "Be safe" rules within our course. Showing examples of how to be safe in a classroom, from physical safety to internet dangers, help our students and parents 
 
 
 #### Products
@@ -39,7 +39,7 @@ We were trying to solve a few problems within our parent community. The first is
 
 ##### <a href="https://scratch.mit.edu/studios/5136239/"> Check out what I helped my kids built</a>
 
-Other than creating a strategy around kids, managing the company outreach & cponsorship is a blast! I loved watching my team build new relationship and the brand interaction with local communities and businesses.
+Other than managing the company outreach & sponsorship, helping kids build games and animations is a blast! 
 
 
 

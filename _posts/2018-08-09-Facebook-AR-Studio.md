@@ -26,7 +26,7 @@ Let's get started by downloading the following tools:
 ##### Tools
 - [AR Studio](https://developers.facebook.com/products/ar-studio) on Mac (Mines is a Macbook Air)
 - [AR Player](https://itunes.apple.com/app/facebook/id1231451896) on iPhone (I'm using my iPhone 7)
-- USB to Lightinging cable (This will be used to sync your new app)
+- USB to Lightning cable (This will be used to sync your new app)
 
 # Resources <a name="resources"></a>
 [Using the AR Studio Player App](https://developers.facebook.com/docs/ar-studio/tutorials/ar-studio-player)

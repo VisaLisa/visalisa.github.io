@@ -13,9 +13,9 @@ description: Presentation at VR Design Salon's August Meetup
 ---
 ## A Roadmap to VR Design
 
-On August 15, 2018 I presented on VR Design Roadmaps at Seattle VR Design Salon's Meetup at PlutoVR. As a VR developer, one of the major challenges I noticed within the VR community is the lack of planning and strategy to building a good VR experience.
+On August 15, 2018, I presented on the topic of VR Design Roadmaps at Seattle VR Design Salon's Meetup at PlutoVR. As a VR developer, one of the major challenges I noticed within the VR community is the lack of planning and strategy to building a good VR experience.
 
-VR Design is growing because we are shifting how we experience technology. Years ago building websites and apps were the hot topic, which was built in a 2D world. Now we are moving towards a 3D world were we need to learn about other dimensions/senses. With this movement, VR design needs help from more than just developers – sound/audio technicians, UX designers, psychologists, business operations, and everyone in between. 
+Design in VR is growing topic because we are shifting how we experience technology. Years ago building websites and apps were the hot topic, which were built in a 2D world. Now we are moving towards a 3D world where we need to learn about other dimensions/senses. With this movement, VR design needs help from more than just developers – sound/audio technicians, UX designers, psychologists, business operations, and everyone in between. 
 
 To get to great design, we will need to keep in mind why we build - our users. Our users are the foundations to why we build great products. Products become better when companies listen to their users because it guides the team to build to the needs and wants. The Kano Model is a great tool to use when learning about which features are needed for the product and users to thrive.
 

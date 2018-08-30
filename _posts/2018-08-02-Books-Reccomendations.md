@@ -1,8 +1,8 @@
 ---
 layout: blogpost
 comments: true
-title: Lisa's Book Reccomendation
-subtitle: "A library of books to check out!"
+title: A Hacker's Guide to Reading
+subtitle: "Learn how to read 106 books in a year & book reccomendation"
 lang: pt
 date: 2018-08-02
 true-dt: 2018-08-02
@@ -11,7 +11,7 @@ author: "Lisa Jiamsirioungkul"
 comments: true
 header-img: "img/dark-ann.jpg"
 ---
-## Lisa's Book Reccomendation
+## A Hacker's Guide to Reading
 
 <br>
 ### Content
@@ -26,7 +26,16 @@ header-img: "img/dark-ann.jpg"
 
 #### Intro <a name="intro"></a>
 
-I made of list of highly reccommended reading selection that I made over the years. The books range in a variety of genres from business to cooking. I added links to purchase the book on Amazon (not sponsored), but I would highly encourage checking if your local library has any of them.
+I wanted to learn as much as possible about ('building great teams') and ('professional growth') quickly. To reach this goal, I challenged myself to read 3 books a week for a year. The math coming out to 106 books. How I got there was making time in my day to read and audiobook. Both of these methods increased the time I spend reading a book by x3.
+
+- 30 minutes of reading a day
+- Audiobook everywhere (in traffic, at work, even while cooking)
+- Library trip once a week - see what resources they have
+- OverDrive - they're a great resource for free books and audiobook
+
+#### Lisa's Book Recommendation
+
+I made of list of highly recommended reading selection that I made over the years. The books range in a variety of genres from business to cooking. I added links to purchase the book on Amazon (not sponsored), but I would highly encourage checking if your local library has any of them.
 
 
 #### Business <a name="Business"></a>

@@ -5,8 +5,8 @@
     <description>Product Manager</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 21 Aug 2018 11:20:53 -0700</pubDate>
-    <lastBuildDate>Tue, 21 Aug 2018 11:20:53 -0700</lastBuildDate>
+    <pubDate>Tue, 21 Aug 2018 19:39:31 -0700</pubDate>
+    <lastBuildDate>Tue, 21 Aug 2018 19:39:31 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -55,7 +55,7 @@
 &lt;/ol&gt;
 
 </description>
-        <pubDate>Tue, 21 Aug 2018 11:20:53 -0700</pubDate>
+        <pubDate>Tue, 21 Aug 2018 19:39:31 -0700</pubDate>
         <link>http://localhost:4000/2018/08/21/2018-08-02-Outreach-Design/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/21/2018-08-02-Outreach-Design/</guid>
         
@@ -77,7 +77,7 @@
 &lt;p&gt;During this hunting time, life can be a blur. “What day is today?” “What’s on the to-do list?” “What’s can I do?” are just some of the questions you might be asking yourself.&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 21 Aug 2018 11:20:53 -0700</pubDate>
+        <pubDate>Tue, 21 Aug 2018 19:39:31 -0700</pubDate>
         <link>http://localhost:4000/2018/08/21/2018-08-01-The-Job-Hunt/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/21/2018-08-01-The-Job-Hunt/</guid>
         
@@ -160,7 +160,7 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 21 Aug 2018 11:20:53 -0700</pubDate>
+        <pubDate>Tue, 21 Aug 2018 19:39:31 -0700</pubDate>
         <link>http://localhost:4000/2018/08/21/2018-07-24-Start-With-Why/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/21/2018-07-24-Start-With-Why/</guid>
         
@@ -243,9 +243,85 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Tue, 21 Aug 2018 11:20:53 -0700</pubDate>
+        <pubDate>Tue, 21 Aug 2018 19:39:31 -0700</pubDate>
         <link>http://localhost:4000/2018/08/21/2018-07-10-product-manager/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/21/2018-07-10-product-manager/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How PM saved my relationship</title>
+        <description>&lt;h2 id=&quot;how-product-management-saved-my-relationship&quot;&gt;How Product Management saved my relationship!&lt;/h2&gt;
+
+&lt;p&gt;At the beginning of the month, I celebrated my 3rd anniversary with my loving partner. How we got to our relationship milestone wasn’t all hearts and flowers. It took building all our communication and working on the small bits of our relationship to get to this point.&lt;/p&gt;
+
+&lt;p&gt;What help me take my relationship to the next level was what I learned from Patrick, the Managing Director of Gateway Adopters. He showed me his Market Fit Fast model. Although the model is best applied to product management and technology, I thought I would give it a try on being a better partner.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-vision&quot;&gt;The Vision&lt;/h3&gt;
+&lt;p&gt;Giving my partner unconditional love&lt;/p&gt;
+
+&lt;h3 id=&quot;the-method&quot;&gt;The Method&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-the-features&quot;&gt;1. The Features&lt;/h4&gt;
+
+&lt;p&gt;To get started on my project, I need to layout all the things I can or would do to make them happy. We’ll call these &lt;code class=&quot;highlighter-rouge&quot;&gt;features&lt;/code&gt;. Below are some of the features I thought of:&lt;/p&gt;
+
+&lt;p&gt;Features list&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- Clean the house
+- Italian dinner
+- Bring a dog home
+- Learning about sports
+- Trip to the aquarium
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;2-the-model&quot;&gt;2. The Model&lt;/h4&gt;
+
+&lt;p&gt;Once I gathered my features, I ran them individually through the Market Fit Fast model. Each question in the model helped me understand the value-add and prioritization of each feature.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/portfolio/PM/MarketFitFast.jpg&quot; width=&quot;718px&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;3-the-value&quot;&gt;3. The Value&lt;/h4&gt;
+
+&lt;p&gt;After going through the model, the feature will land into one of the five type of value.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Must&lt;/code&gt; are the features that are expected and are taken for granted.&lt;/p&gt;
+
+    &lt;p&gt;Example: Clean the house - When I first showed my partner my room, it was clean and tidy. Whenever my partner see my room now, they expect my room to always be clean, thus this feature is a must value&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Linear&lt;/code&gt; are features that have to be there, but the more you add value the better!&lt;/p&gt;
+
+    &lt;p&gt;Example: Italian dinner - I cook meals fairly often for my partner. To add to my menu, I decided to make Italian dinner. What made Italian a linear value is adding new recipes to my library of meals.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Delighter&lt;/code&gt; are features that you don’t expect in the product and are compelling value-add.&lt;/p&gt;
+
+    &lt;p&gt;Example: Bringing a dog home - Both of us never had a dog before, but we dreamed to adopt one day. My partner came home and to their surprise, saw a dog in our house running around. Bringing a dog home was a delighter value since it was unexpected and my partner loves the dog too much now to ever leave it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Indifferent&lt;/code&gt; is what it sounds like. When you introduce a product, but there’s no reaction to it.&lt;/p&gt;
+
+    &lt;p&gt;Example: Learning about fishing - My partner and I are not an avid fishing fan. For me to introduce fishing is not going to add any value to our relationship and leaves us both indifferent about doing the activity.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Hostile&lt;/code&gt; is a reaction when you introduce a feature that receives negative feedback and diminishing returns upon usage.&lt;/p&gt;
+
+    &lt;p&gt;Example: Trip to the aquarium – My partner is highly afraid of fish. I knowing that I would never take them to the aquarium.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 21 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/21/PM-my-relationship/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/21/PM-my-relationship/</guid>
+        
+        <category>Blog</category>
         
         
       </item>
@@ -271,15 +347,15 @@ Hired.com&lt;/p&gt;
         <title>A Roadmap to VR Design</title>
         <description>&lt;h2 id=&quot;a-roadmap-to-vr-design&quot;&gt;A Roadmap to VR Design&lt;/h2&gt;
 
-&lt;p&gt;On August 15, 2018 I presented on VR Design Roadmaps at Seattle VR Design Salon’s Meetup at PlutoVR. As a VR developer, one of the major challenges I noticed within the VR community is the lack of planning and strategy to building a good VR experience.&lt;/p&gt;
+&lt;p&gt;On August 15, 2018, I presented on the topic of VR Design Roadmaps at Seattle VR Design Salon’s Meetup at PlutoVR. As a VR developer, one of the major challenges I noticed within the VR community is the lack of planning and strategy to building a good VR experience.&lt;/p&gt;
 
-&lt;p&gt;VR Design is growing because we are shifting how we experience technology. Years ago building websites and apps were the hot topic, which was built in a 2D world. Now we are moving towards a 3D world were we need to learn about other dimensions/senses. With this movement, VR design needs help from more than just developers – sound/audio technicians, UX designers, psychologists, business operations, and everyone in between.&lt;/p&gt;
+&lt;p&gt;Design in VR is growing topic because we are shifting how we experience technology. Years ago building websites and apps were the hot topic, which were built in a 2D world. Now we are moving towards a 3D world where we need to learn about other dimensions/senses. With this movement, VR design needs help from more than just developers – sound/audio technicians, UX designers, psychologists, business operations, and everyone in between.&lt;/p&gt;
 
 &lt;p&gt;To get to great design, we will need to keep in mind why we build - our users. Our users are the foundations to why we build great products. Products become better when companies listen to their users because it guides the team to build to the needs and wants. The Kano Model is a great tool to use when learning about which features are needed for the product and users to thrive.&lt;/p&gt;
 
 &lt;h3 id=&quot;presentation&quot;&gt;Presentation&lt;/h3&gt;
 
-&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vTltTThXX8gACpHQnLLz4GBwkAQ7pD1K1MFx3jOEZBvedqfv4c3T79C5kSIJFIZT6XkPD42TcVp59ej/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;960&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/e/2PACX-1vTltTThXX8gACpHQnLLz4GBwkAQ7pD1K1MFx3jOEZBvedqfv4c3T79C5kSIJFIZT6XkPD42TcVp59ej/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;718&quot; height=&quot;569&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Wed, 15 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2018/08/15/Roadmap-to-VR-Design/</link>
@@ -310,7 +386,7 @@ Hired.com&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://developers.facebook.com/products/ar-studio&quot;&gt;AR Studio&lt;/a&gt; on Mac (Mines is a Macbook Air)&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://itunes.apple.com/app/facebook/id1231451896&quot;&gt;AR Player&lt;/a&gt; on iPhone (I’m using my iPhone 7)&lt;/li&gt;
-  &lt;li&gt;USB to Lightinging cable (This will be used to sync your new app)&lt;/li&gt;
+  &lt;li&gt;USB to Lightning cable (This will be used to sync your new app)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h1 id=&quot;resources-&quot;&gt;Resources &lt;a name=&quot;resources&quot;&gt;&lt;/a&gt;&lt;/h1&gt;
@@ -486,113 +562,6 @@ Hired.com&lt;/p&gt;
         <pubDate>Mon, 06 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2018/08/06/Google-Domain-to-Github-pages/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/08/06/Google-Domain-to-Github-pages/</guid>
-        
-        <category>Blog</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Lisa's Book Reccomendation</title>
-        <description>&lt;h2 id=&quot;lisas-book-reccomendation&quot;&gt;Lisa’s Book Reccomendation&lt;/h2&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3 id=&quot;content&quot;&gt;Content&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Business&quot;&gt;Business&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Life&quot;&gt;Life&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Technology&quot;&gt;Technology&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Women&quot;&gt;Women&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#Fiction&quot;&gt;Fiction&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;intro-&quot;&gt;Intro &lt;a name=&quot;intro&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;I made of list of highly reccommended reading selection that I made over the years. The books range in a variety of genres from business to cooking. I added links to purchase the book on Amazon (not sponsored), but I would highly encourage checking if your local library has any of them.&lt;/p&gt;
-
-&lt;h4 id=&quot;business-&quot;&gt;Business &lt;a name=&quot;Business&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Find-Your-Why-Practical-Discovering/dp/0143111728&quot;&gt;Find Your Why: A Practical Guide for Discovering Purpose for You and Your Team by Simon Sinek&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;I listened to the audiobook version of this twice! It’s a must read for those searching for your next career move and great for align your team.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Emotional-Intelligence-Managing-Emotions-Positive/dp/0857085441&quot;&gt;Emotional Entelligence by Gill Hasson&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X&quot;&gt;The Power of Habit by Charles Duhigg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Culture-Code-Secrets-Highly-Successful/dp/0804176981/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595336&amp;amp;sr=1-1&amp;amp;keywords=The+Culture+Code+by+Daniel+Coyle&quot;&gt;The Culture Code by Daniel Coyle&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Grit-Passion-Perseverance-Angela-Duckworth/dp/1501111108/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595360&amp;amp;sr=1-2&amp;amp;keywords=Grit+by+Angela+Duckworth&quot;&gt;Grit by Angela Duckworth&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;!--6. Shoe Dog by Phil Knight--&gt;
-&lt;!--7. The Self-Made Billionair Effect by John Sviokla--&gt;
-&lt;!--8. Good to Great by Jim Collins--&gt;
-&lt;!--9. How to Lead When You're Not In Charge by Clay Scroggins--&gt;
-&lt;!--10. Ahead of the Curve by Philip Delves Broughton--&gt;
-
-&lt;h4 id=&quot;life-&quot;&gt;Life &lt;a name=&quot;Life&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Life-Changing-Magic-Tidying-Decluttering-Organizing/dp/1607747308&quot;&gt;The Life-Changing Magic of Tidying Up by Marie Kondo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Life-Changing-Magic-Not-Giving-Spending/dp/0316270725/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595512&amp;amp;sr=1-1&amp;amp;keywords=The+Life-Changing+Magic+of+Not+Giving+a+Fck+by+Sarah+Knight&quot;&gt;The Life-Changing Magic of Not Giving a F*ck by Sarah Knight&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595616&amp;amp;sr=1-1&amp;amp;keywords=The+Subtle+Art+of+Not+Giving+a+Fck+by+Mark+Manson&quot;&gt;The Subtle Art of Not Giving a F*ck by Mark Manson&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/You-Are-Badass-Doubting-Greatness/dp/0762447699/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595642&amp;amp;sr=1-2&amp;amp;keywords=You+Are+a+Badass+at+Making+Money+by+Jen+Sincero&quot;&gt;You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life by Jen Sincero&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/You-Are-Badass-Making-Money/dp/0735222975/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595642&amp;amp;sr=1-1&amp;amp;keywords=You+Are+a+Badass+at+Making+Money+by+Jen+Sincero&quot;&gt;You Are a Badass at Making Money by Jen Sincero&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/How-American-Immigrants-Disappointing-Parents/dp/0306903490/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595735&amp;amp;sr=1-1&amp;amp;keywords=How+to+American+by+Jimmy+O.+Yang&quot;&gt;How to American: An Immigrant’s Guide to Disappointing Your Parents by Jimmy O. Yang&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;technology-&quot;&gt;Technology &lt;a name=&quot;Technology&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Decode-Conquer-Answers-Management-Interviews/dp/0615930417/ref=pd_sim_14_1?_encoding=UTF8&amp;amp;pd_rd_i=0615930417&amp;amp;pd_rd_r=f171c71c-99c6-11e8-95e6-37066366b64f&amp;amp;pd_rd_w=7u4tH&amp;amp;pd_rd_wg=ar3IE&amp;amp;pf_rd_i=desktop-dp-sims&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_p=a180fdfb-b54e-4904-85ba-d852197d6c09&amp;amp;pf_rd_r=DQGJZ1ZBG369MPTQVTAA&amp;amp;pf_rd_s=desktop-dp-sims&amp;amp;pf_rd_t=40701&amp;amp;psc=1&amp;amp;refRID=DQGJZ1ZBG369MPTQVTAA&quot;&gt;Decode and Conquer: Answers to Product Management Interviews by Lewis C. Lin&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;This book is a great resource for product management candidates looking for frameworks and sample answers to help you win the interview.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Cracking-PM-Interview-Product-Technology/dp/0984782818/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533594032&amp;amp;sr=1-1&amp;amp;keywords=cracking+the+pm+interview&quot;&gt;Cracking the PM Interview by Gayle Laakmann-Mcdowell&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Comprehensive book in how to get a job in product management.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=pd_sbs_14_1?_encoding=UTF8&amp;amp;pd_rd_i=0984782850&amp;amp;pd_rd_r=ef392012-99c7-11e8-8719-f5a2c5be41ea&amp;amp;pd_rd_w=lgxxC&amp;amp;pd_rd_wg=EJjsr&amp;amp;pf_rd_i=desktop-dp-sims&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_p=f9e73f8b-e90f-46a6-8123-a09c49edb7a8&amp;amp;pf_rd_r=H3WF0HAXHQQYGT1Y8HH8&amp;amp;pf_rd_s=desktop-dp-sims&amp;amp;pf_rd_t=40701&amp;amp;psc=1&amp;amp;refRID=H3WF0HAXHQQYGT1Y8HH8&quot;&gt;Cracking the Coding Interview by Gayle Laakmann-Mcdowell&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A staple book to preparing for a developer job interview process.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Everybody-Lies-Internet-About-Really/dp/0062390856/ref=sr_1_fkmr0_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533593620&amp;amp;sr=1-1-fkmr0&amp;amp;keywords=Everyone+Lies+by+Seth+Stephens-Davidowitz&quot;&gt;Everyone Lies by Seth Stephens-Davidowitz&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Brilliant read demostrating how big data can give us surprising answers to our social sciences.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/How-Google-Works-Eric-Schmidt/dp/1455582328/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533593776&amp;amp;sr=1-1&amp;amp;keywords=How+Google+Works+by+Eric+Schmidt&quot;&gt;How Google Works by Eric Schmidt&lt;/a&gt;
-6.&lt;a href=&quot;https://www.amazon.com/Experience-Demand-Virtual-Reality-Works/dp/0393253694/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533593587&amp;amp;sr=1-1&amp;amp;keywords=Experience+on+Demand+by+Jeremy+Bailenson&quot;&gt;Experience on Demand by Jeremy Bailenson&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Soft-Skills-software-developers-manual/dp/1617292397&quot;&gt;Soft Skills: The software developer’s life manual&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;women-&quot;&gt;Women &lt;a name=&quot;Women&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.feministfightclub.com/the-book&quot;&gt;Feminist Fight Club: A Survival Manual for a Sexist Workplace&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Lean-Women-Work-Will-Lead/dp/0385349947/ref=sr_1_1?ie=UTF8&amp;amp;qid=1533594931&amp;amp;sr=8-1&amp;amp;keywords=lean+in&quot;&gt;Lean In: Women, Work, and the Will to Lead by Sheryl Sandberg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Option-Adversity-Building-Resilience-Finding/dp/1524732680/ref=pd_sim_14_1?_encoding=UTF8&amp;amp;pd_rd_i=1524732680&amp;amp;pd_rd_r=0a0780a8-99c9-11e8-b26c-b518a250d2cb&amp;amp;pd_rd_w=m8vPD&amp;amp;pd_rd_wg=IdrwU&amp;amp;pf_rd_i=desktop-dp-sims&amp;amp;pf_rd_m=ATVPDKIKX0DER&amp;amp;pf_rd_p=a180fdfb-b54e-4904-85ba-d852197d6c09&amp;amp;pf_rd_r=1RWN72AXXHMFZ287RNMZ&amp;amp;pf_rd_s=desktop-dp-sims&amp;amp;pf_rd_t=40701&amp;amp;psc=1&amp;amp;refRID=1RWN72AXXHMFZ287RNMZ&quot;&gt;Option B: Facing Adversity, Building Resilience, and Finding Joy by Sheryl Sandberg &amp;amp; Adam Grant&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;fiction-&quot;&gt;Fiction &lt;a name=&quot;Fiction&quot;&gt;&lt;/a&gt;&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Crazy-Rich-Asians-Trilogy/dp/0345803787/ref=sr_1_1?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595039&amp;amp;sr=1-1&amp;amp;keywords=crazy+rich+asians&quot;&gt;Crazy Rich Asian by Kevin Kwan&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;Best-Selling Novel, soon to be &lt;a href=&quot;http://www.crazyrichasiansmovie.com&quot;&gt;movie release on August 18&lt;/a&gt; .&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/China-Girlfriend-Crazy-Asians-Trilogy/dp/0804172064/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595039&amp;amp;sr=1-2&amp;amp;keywords=crazy+rich+asians&quot;&gt;Rich China Girlfriend by Kevin Kwan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.com/Rich-People-Problems-Asians-Trilogy/dp/052543237X/ref=sr_1_3?s=books&amp;amp;ie=UTF8&amp;amp;qid=1533595039&amp;amp;sr=1-3&amp;amp;keywords=crazy+rich+asians&quot;&gt;Rich People Problems by Kevin Kwan&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 02 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/02/Books-Reccomendations/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/02/Books-Reccomendations/</guid>
         
         <category>Blog</category>
         
