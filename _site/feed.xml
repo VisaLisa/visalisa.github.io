@@ -5,9 +5,21 @@
     <description>Product Manager</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 30 Aug 2018 12:18:10 -0700</pubDate>
-    <lastBuildDate>Thu, 30 Aug 2018 12:18:10 -0700</lastBuildDate>
+    <pubDate>Fri, 31 Aug 2018 13:56:40 -0700</pubDate>
+    <lastBuildDate>Fri, 31 Aug 2018 13:56:40 -0700</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title></title>
+        <description>&lt;h2 id=&quot;five-reasons-for-women-to-code&quot;&gt;Five Reasons for Women to Code&lt;/h2&gt;
+&lt;p&gt;This two years ago,&lt;/p&gt;
+</description>
+        <pubDate>Fri, 31 Aug 2018 13:56:40 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/31/2018-08-29-Women-to-Code/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/31/2018-08-29-Women-to-Code/</guid>
+        
+        
+      </item>
     
       <item>
         <title></title>
@@ -55,9 +67,9 @@
 &lt;/ol&gt;
 
 </description>
-        <pubDate>Thu, 30 Aug 2018 12:18:10 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/30/2018-08-02-Outreach-Design/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/30/2018-08-02-Outreach-Design/</guid>
+        <pubDate>Fri, 31 Aug 2018 13:56:40 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/31/2018-08-02-Outreach-Design/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/31/2018-08-02-Outreach-Design/</guid>
         
         
       </item>
@@ -77,9 +89,9 @@
 &lt;p&gt;During this hunting time, life can be a blur. “What day is today?” “What’s on the to-do list?” “What’s can I do?” are just some of the questions you might be asking yourself.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 30 Aug 2018 12:18:10 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/30/2018-08-01-The-Job-Hunt/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/30/2018-08-01-The-Job-Hunt/</guid>
+        <pubDate>Fri, 31 Aug 2018 13:56:40 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/31/2018-08-01-The-Job-Hunt/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/31/2018-08-01-The-Job-Hunt/</guid>
         
         
       </item>
@@ -160,92 +172,9 @@
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 12:18:10 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/30/2018-07-24-Start-With-Why/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/30/2018-07-24-Start-With-Why/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title></title>
-        <description>&lt;h2 id=&quot;conteúdo&quot;&gt;Conteúdo&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#req&quot;&gt;Requisitos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#python&quot;&gt;Instalando Python&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#tf&quot;&gt;Instalando TensorFlow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#git&quot;&gt;Instalando Git&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#test&quot;&gt;Testando&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#fim&quot;&gt;Considerações Finais&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;requisitos-computacionais-&quot;&gt;Requisitos computacionais &lt;a name=&quot;req&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Para seguir com esse tutorial de instalação, você precisa de um computador com Windows 64 bits e pelo menos 4 GB de RAM. Mas mais do que isso, se você planeja seguir adiante com estudos ou aplicações de aprendizado de máquina, é recomendável ter pelo menos 8 GB de RAM e um processador minimamente decente, como um Intel i5 ou outro processador com pelo menos quatro núcleos (&lt;em&gt;quad core&lt;/em&gt;).&lt;/p&gt;
-
-&lt;h2 id=&quot;instalando-python-&quot;&gt;Instalando Python &lt;a name=&quot;python&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/python.png&quot; alt=&quot;python&quot; class=&quot;img-responsive thumbnail pull-right&quot; style=&quot;margin-left:3%; width:45%;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;No momento, Python a linguagem de programação preferida pelos cientistas de dados, especialmente para aprendizado de máquina. Mas mais do que isso, Python tem uma sintaxe extremamente simples e legível, o que te permite focar mais no conteúdo do seu programa do que em como escrevê-lo. Aqui, vamos ensinar como instalar a distribuição &lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;Anaconda&lt;/a&gt;, um pacote de programas que inclui o Python mais uma série de extensões utilizadas em ciência de dados e aprendizado de máquina (como Numpy, Pandas, Jupyter Notebooks e Scikit Learn).&lt;/p&gt;
-
-&lt;p&gt;Antes de mais nada, &lt;a href=&quot;https://support.microsoft.com/pt-br/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64-bit-version-of-the-windows-operating-system&quot;&gt;certifique-se de que seu sistema operacional é 64 bits&lt;/a&gt;. Infelizmente, o tutorial a seguir só funciona na versão 64 bits do Windows, então uma vez que você tenha confirmado essa versão, podemos prosseguir com a instalação. Agora, vá em &lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;https://www.continuum.io/downloads&lt;/a&gt; e baixe o Anaconda para Windows, versão 64-bit. Ao clicar no botão do download, um arquivo executável será baixado.&lt;/p&gt;
-
-&lt;p&gt;Clique no arquivo executável para inicializar a instalação. Prossiga com as opções padrões, mas certifique-se de que a caixa com a opção &lt;code class=&quot;highlighter-rouge&quot;&gt;Add Anaconda to PATH&lt;/code&gt; esteja selecionada. Esse processo de instalação pode demorar um pouco. Quando a instalação concluir, podemos testar se tudo deu certo.&lt;/p&gt;
-
-&lt;p&gt;Abra a prompt de comando. Antes de prosseguir, vamos nos familiarizar com ela um pouco. A propt de comando é uma forma alternativa de interagir com o seu computador. Da mesma forma que você navega pelas pastas e arquivos clicando com o mouse, você pode fazer isso na linha de comando. Por padrão, a linha de comando abre no seu &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;, o local onde ficam suas pastas de imagens, documentos, downloads, etc. Após abrir o prompt de comando, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para ver o que está na sua pasta, naquele local. Você verá escrito as pastas de arquivos do seu &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; lista o que está na sua pasta (ou diretório) corrente.&lt;/p&gt;
-
-&lt;p&gt;Agora, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;cd Desktop&lt;/code&gt; para navegar ao Desktop do seu computador. Se quiser, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para mostrar quais arquivos estão no seu Desktop. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; (change directory) troca o diretório (ou pasta) corrente. O comando &lt;code class=&quot;highlighter-rouge&quot;&gt;cd ..&lt;/code&gt; sobe um nível nas pastas do seu computador. Se você digitar isso na prompt de comando enquanto estiver no Desktop, ele te levará de volta ao &lt;code class=&quot;highlighter-rouge&quot;&gt;Home&lt;/code&gt;, que é a o diretório um nível acima do &lt;code class=&quot;highlighter-rouge&quot;&gt;Desktop&lt;/code&gt;. Volte para o &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;No &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; na prompt de comando. Isso iniciará o modo interativa do Python. Execute algumas operações matemáticas como &lt;code class=&quot;highlighter-rouge&quot;&gt;2+2&lt;/code&gt; e veja o resultado sendo calculado pelo Python. Quando terminar, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;quit()&lt;/code&gt; para sair da versão interativa do Python.&lt;/p&gt;
-
-&lt;p&gt;Para finalizar, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;jupyter notebook&lt;/code&gt; na linha de comando. Isso inicializará o Jupyter, um programa que executa códigos em Python. Uma nova aba será aberta no seu browser (OBS: funciona apenas com Chrome ou Firefox) e nela você verá a interface do Jupyter. Caso essa aba não abra, na prompt de comando, procure um link que deve começar com &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:8889/&lt;/code&gt;. Copie e cole esse link em uma nova aba do seu browser para abrir a interface do Jupyter. Nessa interface, você poderá escrever &lt;em&gt;notebooks&lt;/em&gt; que intercalam código em Python intercalado com comentários, se assim desejar (veja um &lt;a href=&quot;https://github.com/matheusfacure/Tutoriais-de-AM/blob/master/Redes%20Neurais%20Artificiais/DeepANN.ipynb&quot;&gt;exemplo&lt;/a&gt;). Para sair do notebook, feche a aba no seu browser, volte a prompt de comando e aperte CTRL+C, seguido de y e enter. CTRL+C é um comando para fechar programas que estão rodando na sua prompt de comando; você terá que confirmar o fechamento com y (&lt;em&gt;yes&lt;/em&gt;), seguido de enter.&lt;/p&gt;
-
-&lt;p&gt;Para aprender mais sobre a linha de comando, sugiro este &lt;a href=&quot;https://learnpythonthehardway.org/book/appendixa.html&quot;&gt;link&lt;/a&gt;. Para aprender mais sobre o Jupyter, sugiro este &lt;a href=&quot;http://jupyter.readthedocs.io/en/latest/content-quickstart.html&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;instalando-tensorflow-&quot;&gt;Instalando TensorFlow &lt;a name=&quot;tf&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/tf.jpg&quot; alt=&quot;python&quot; class=&quot;img-responsive thumbnail pull-right&quot; style=&quot;margin-left:3%; width:45%;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;O &lt;a href=&quot;https://www.tensorflow.org/&quot;&gt;TensorFlow&lt;/a&gt; é um programa de computação numérica, que tem sua versão principal em Python. Nós usamos o TensorFlow para programas de &lt;em&gt;deep learning&lt;/em&gt;, devido a sua eficiência computacional e abundância de comandos facilitadores para construção e treinamento de redes neurais. Antes de instalar o TensorFlow, vamos criar um ambiente Python. Nesse ambiente, todas as extensões (ou pacotes) que vem no Anaconda estarão presentes, mas o que instalarmos nele não será acessível de fora dele. Isso evita que a instalação de um pacote novo possa prejudicar o funcionamento dos pacotes já instalados.&lt;/p&gt;
-
-&lt;p&gt;Para criar um ambiente novo, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;conda create -n tensorflow&lt;/code&gt; na linha de comando. Confirme a criação do ambiente digitando y (&lt;em&gt;yes&lt;/em&gt;), seguido de enter. Agora, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;activate tensorflow&lt;/code&gt; para entrar nesse ambiente. Note que a sua linha de comando mudará para incluir &lt;code class=&quot;highlighter-rouge&quot;&gt;(tensorflow)&lt;/code&gt; antes do nome do seu diretório corrente. Para sair do ambiente, basta digitar &lt;code class=&quot;highlighter-rouge&quot;&gt;deactivate&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Finalmente, para instalar o TensorFlow, entre no ambiente recém criado e digite:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--ignore-installed&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--upgrade&lt;/span&gt; https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.2.0-cp36-cp36m-win_amd64.whl
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Dica: CTRL+C e CTRL+V não funciona na linha de comando, mas você pode copiar e colar comandos clicando com o botão direito do mouse. Em alguns computadores, na linha de comando, podemos usar CTRL+SHIFT+C para copiar e CTRL+SHITF+V para colar.&lt;/p&gt;
-
-&lt;p&gt;Na instalação do TensorFlow, usaremos &lt;code class=&quot;highlighter-rouge&quot;&gt;pip&lt;/code&gt;, que é o gerenciador de pacotes do Python, para instalar o TensorFlow 1.2 para Windows, com suporte para CPU apenas. A instalação com suporte para GPU é mais complicada e varia muito. Caso queira instalá-la, siga as &lt;a href=&quot;https://www.tensorflow.org/install/install_windows&quot;&gt;instruções no site do TensorFlow&lt;/a&gt;. Teste agora sua instalação. Na linha de comando, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python&lt;/code&gt; para iniciar o modo iterativo do Python. Digite &lt;code class=&quot;highlighter-rouge&quot;&gt;import tensorflow as tf&lt;/code&gt;. Se tudo ocorreu bem até aqui, você não verá nenhum erro.&lt;/p&gt;
-
-&lt;h2 id=&quot;instalando-git-&quot;&gt;Instalando Git &lt;a name=&quot;git&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Git é um programa de controle de versões. Ele permite que você volte a uma versão anterior do seu código caso escreva algum bug ou alguma coisa que pare o funcionamento do seu programa. Em outras palavras, o Git te permite experimentar novas coisas sem medo de ferrar com o que já foi feito, afinal você sempre poderá restaurar versões passadas do seu código. Além disso, o Git tem uma plataforma online, o &lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;, que permite colaboração entre programadores, principalmente para códigos abertos. O GitHub também funciona como um currículo do cientista de dados. Por meio dele, é possível compartilhar seus trabalhos de forma que eles sejam completamente reprodutíveis, permitindo que qualquer um possa certificar-se das suas habilidades.&lt;/p&gt;
-
-&lt;p&gt;Para baixar o Git, va em &lt;a href=&quot;https://git-scm.com/downloads&quot;&gt;https://git-scm.com/downloads&lt;/a&gt; e clique na versão para Windows. Isso iniciará o download de um executável. Quando o download terminar, clique no executável para iniciar a instalação. Aceite todas as configurações padrão, &lt;strong&gt;exceto&lt;/strong&gt; a Configuração de Final de Linha. Nesse caso, mude para &lt;code class=&quot;highlighter-rouge&quot;&gt;Checkout as-is, commit Unix-style line endings&lt;/code&gt;. Isso facilitará muito no momento que você estiver contribuindo com outros projetos via GitHub.&lt;/p&gt;
-
-&lt;p&gt;Recomendo fortemente que você faça &lt;a href=&quot;https://br.udacity.com/course/how-to-use-git-and-github--ud775/&quot;&gt;este pequeno curso online&lt;/a&gt; (e gratuito) sobre como usar controle de versões, Git e GitHub. Não deve te tomar muito tempo.&lt;/p&gt;
-
-&lt;h2 id=&quot;testando-&quot;&gt;Testando &lt;a name=&quot;test&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Vamos fazer um último teste para ver se tudo está funcionando. Abra a linha de comando do Git e digite&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/matheusfacure/DeepArt.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Isso baixará um repositório meu com uma implementação do &lt;a href=&quot;https://en.wikipedia.org/wiki/DeepDream&quot;&gt;algoritmo de DeepDream&lt;/a&gt;. Por padrão, o a linha de comando do Git também abre no &lt;code class=&quot;highlighter-rouge&quot;&gt;HOME&lt;/code&gt;. Se não for o caso, navega até o Home com &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; e então clone o repositório com o comando acima. Voltando à linha de comando do Windows, você deve estar no Home também. Digite &lt;code class=&quot;highlighter-rouge&quot;&gt;ls&lt;/code&gt; para ver a pasta &lt;code class=&quot;highlighter-rouge&quot;&gt;DeepArt&lt;/code&gt; que baixamos com o Git.&lt;/p&gt;
-
-&lt;p&gt;Na linha de comando do Windows, digite agora &lt;code class=&quot;highlighter-rouge&quot;&gt;cd DeepArt/&lt;/code&gt; para entrar no diretório baixado. Por fim, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;python deep_dream.py&lt;/code&gt; para executar o programa que fiz. Isso baixará uma rede neural (pode levar alguns minutos) e a utilizará para realizar o algoritmo de DeepDream. Usando o navegador padrão do seu sistema operacional (clicando com o mouse). Vá até o diretório (ou pasta) de DeepArt que acabamos de baixar e veja a imagem criada pelo algoritmo de DeepDream. Caso não saiba onde está essa pasta, na linha de comando do Git, digite &lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt; (print working directory) para mostrar o endereço da pasta.&lt;/p&gt;
-
-&lt;h2 id=&quot;considerações-finais-&quot;&gt;Considerações Finais &lt;a name=&quot;fim&quot;&gt;&lt;/a&gt;&lt;/h2&gt;
-
-&lt;p&gt;Os passos de execução deste tutorial foram testados e tudo ocorreu sem problemas. No entanto, é possível que alguém encontre alguma dificuldade ou erro no meio do caminho. Se for o caso, por favor comente a sua dificuldade ou erro neste post.&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-        <pubDate>Thu, 30 Aug 2018 12:18:10 -0700</pubDate>
-        <link>http://localhost:4000/2018/08/30/2018-07-10-product-manager/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/08/30/2018-07-10-product-manager/</guid>
+        <pubDate>Fri, 31 Aug 2018 13:56:40 -0700</pubDate>
+        <link>http://localhost:4000/2018/08/31/2018-07-24-Start-With-Why/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/08/31/2018-07-24-Start-With-Why/</guid>
         
         
       </item>
