@@ -2,7 +2,7 @@
 layout: blogpost
 comments: true
 title: A Hacker's Guide to Reading
-subtitle: "Learn how to read 106 books in a year & book recomendation"
+subtitle: "Learn how to read 106 books in a year & book recomendations"
 lang: pt
 date: 2018-08-02
 true-dt: 2018-08-02
@@ -26,7 +26,7 @@ header-img: "img/dark-ann.jpg"
 
 #### Intro <a name="intro"></a>
 
-I wanted to learn as much as possible about ('building great teams') and ('professional growth') quickly. To reach this goal, I challenged myself to read 3 books a week for a year. The math coming out to 106 books. How I got there was making time in my day to read and audiobook. Both of these methods increased the time I spend reading a book by x3.
+I wanted to learn as much as possible about building great teams and professional growth quickly. To reach this goal, I challenged myself to read 3 books a week for a year. The math coming out to 106 books. How I got there was making time in my day to read and audiobook. These methods increased the time I spend reading a book by x3.
 
 - 30 minutes of reading a day
 - Audiobook everywhere (in traffic, at work, even while cooking)

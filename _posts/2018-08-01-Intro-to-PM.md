@@ -20,7 +20,6 @@ Quality products are made with the user in mind. Asking thoughtful questions abo
 
 <br>
 #### Design Process - no two processes are the same
-s
 Depending on the project/client's objectives, I will put more emphasis on one step or another. The important thing is to learn from actual users, collaborate across teams, and constantly sketch & test possible solutions. 
 
 <br>
